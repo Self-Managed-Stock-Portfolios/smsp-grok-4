@@ -32,17 +32,29 @@ def fetch_ohlcv(symbols, target_date):
             continue
     return pd.DataFrame(data_list)
 
-if __name__ == "__main__":
+def fetch_stock_data(date_input: str) -> pd.DataFrame:
+    """
+    Fetches end-of-day OHLCV data for top 75 mid-cap and small-cap NSE stocks on the given date,
+    sorts by volume, saves to CSV in "Stock Files" folder, and returns the combined DataFrame.
+    
+    Args:
+        date_input (str): Date in YYYY-MM-DD format.
+    
+    Returns:
+        pd.DataFrame: Combined DataFrame with fetched and processed stock data.
+    
+    Raises:
+        ValueError: If date format is invalid.
+    """
     output_dir = "Stock Files"
     if not os.path.exists(output_dir):
         os.makedirs(output_dir)
-    date_input = input("Enter the date (YYYY-MM-DD): ").strip()
+    
     try:
         target_date = datetime.strptime(date_input, '%Y-%m-%d')
     except ValueError:
-        print("Invalid date format. Please use YYYY-MM-DD (e.g., 2025-09-17).")
-        exit(1)
-
+        raise ValueError("Invalid date format. Please use YYYY-MM-DD (e.g., 2025-09-17).")
+    
     print(f"\nFetching data for {target_date.strftime('%Y-%m-%d')}...")
 
     mid_symbols = [
@@ -99,3 +111,9 @@ if __name__ == "__main__":
         empty_df = pd.DataFrame(columns=['Symbol', 'Category', 'Date', 'Open', 'High', 'Low', 'Close', 'Volume'])
         empty_df.to_csv(output_file, index=False)
         print(f"No data for {target_date.strftime('%Y-%m-%d')} (non-trading day?). Created empty {output_file}.")
+    
+    return combined_df
+
+if __name__ == "__main__":
+    date_input = input("Enter the date (YYYY-MM-DD): ").strip()
+    df = fetch_stock_data(date_input)
