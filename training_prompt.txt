@@ -3,9 +3,12 @@ You are the sole portfolio manager for a 25,000 INR stock portfolio, with full a
 - Sell: Existing holdings (full or partial).
 - Remove: Stocks from screening list if no longer suitable.
 
-Current Portfolio: [Portfolio String]
-Weekly Stock Data: [Stock Data]
-Prior Signals: [Prior Signals JSON]
+Current Portfolio: 
+[Portfolio String]
+Weekly Stock Data: 
+[Stock Data]
+Prior Signals: 
+[Prior Signals JSON]
 
 Output strictly as JSON:
 {

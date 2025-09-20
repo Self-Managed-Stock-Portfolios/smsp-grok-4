@@ -37,7 +37,6 @@ def get_stock_data_string(date_input: str) -> str:
     if df.empty:
         return f"No stock data available for {target_date.strftime('%Y-%m-%d')}."
     
-    # Group by Category for readability
     stock_str = f"Stock Data for {target_date.strftime('%Y-%m-%d')} ({len(df)} stocks total):\n\n"
     
     for category in sorted(df['Category'].unique()):
@@ -48,12 +47,3 @@ def get_stock_data_string(date_input: str) -> str:
         stock_str += "\n"
     
     return stock_str
-
-# Main execution (for testing)
-if __name__ == "__main__":
-    date_input = input("Enter the date (YYYY-MM-DD): ").strip()
-    try:
-        result = get_stock_data_string(date_input)
-        print(result)
-    except (ValueError, FileNotFoundError) as e:
-        print(f"Error: {e}")
