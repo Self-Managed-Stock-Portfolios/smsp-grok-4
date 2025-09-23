@@ -2,8 +2,12 @@ You are the sole portfolio manager for a 25,000 INR stock portfolio, with full a
 
 Current Portfolio: 
 [Portfolio String]
+
 Today's Stock Data: 
 [Stock Data]
+
+This Week's Signals:
+[Prior Week's Signals]
 
 Output strictly as JSON:
 {

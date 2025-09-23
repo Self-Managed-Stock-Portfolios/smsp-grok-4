@@ -1,0 +1,42 @@
+{
+  "id": "680a52fc-9816-8113-7759-916d90f42693_us-east-1",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"daily_summary\": \"Today's market showed mixed performance with several midcap and smallcap stocks exhibiting high volatility and volume. Notable gains in stocks like ADANIENT and HINDCOPPER amid overall positive closes for many, while some like TRENT saw declines. High trading volumes indicate strong investor interest in select counters.\",\n  \"top_signals\": [\n    {\"symbol\": \"ADANIENT\", \"signal\": \"Strong Buy\", \"reason\": \"Significant price surge from open to close with high volume, indicating bullish momentum\", \"price\": 2629.50},\n    {\"symbol\": \"HINDCOPPER\", \"signal\": \"Buy\", \"reason\": \"Closed much higher than open with exceptionally high volume, suggesting upward trend\", \"price\": 296.57},\n    {\"symbol\": \"CHOLAFIN\", \"signal\": \"Potential Buy\", \"reason\": \"Positive price movement and solid volume, showing investor confidence\", \"price\": 1630.00},\n    {\"symbol\": \"MUTHOOTFIN\", \"signal\": \"Watch\", \"reason\": \"Strong close with good volume, potential for further gains\", \"price\": 3047.60}\n  ],\n  \"portfolio\": {\"cash\": 25000, \"total_value\": 25000, \"holdings_count\": 0, \"holdings\": []},\n  \"screening_notes\": [\"Monitor ADANIENT for continued momentum due to high volume and price gain\", \"Watch HINDCOPPER closely as it shows breakout potential with massive volume\", \"Consider removing underperformers like TRENT from screening if weekend review confirms downtrend\", \"High volume in smallcaps like NBCC and HUDCO warrants further analysis for entry points\"]\n}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1758596748,
+  "model": "grok-4-0709",
+  "object": "chat.completion",
+  "service_tier": null,
+  "system_fingerprint": "fp_19e21a36c0",
+  "usage": {
+    "completion_tokens": 350,
+    "prompt_tokens": 6377,
+    "total_tokens": 7286,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 559,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 680,
+      "text_tokens": 6377,
+      "image_tokens": 0
+    },
+    "num_sources_used": 0
+  }
+}
