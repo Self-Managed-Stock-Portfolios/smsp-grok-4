@@ -1,0 +1,42 @@
+{
+  "id": "073b418c-e0b7-227a-14de-bf85ef092487_us-east-1",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"daily_summary\": \"Today's market exhibited bearish tendencies with many midcap and smallcap stocks closing lower than their opening prices, driven by high trading volumes in select names like IDEA and ASHOKLEY. Overall volatility was evident, with some stocks like WAAREEENER and KAYNES showing upward momentum amid broader declines.\",\n  \"top_signals\": [\n    {\"symbol\": \"WAAREEENER\", \"signal\": \"Consider buying on Monday\", \"reason\": \"Closed higher than open with significant volume, indicating potential bullish momentum in renewable energy sector\", \"price\": 3489.90},\n    {\"symbol\": \"KAYNES\", \"signal\": \"Consider buying on Monday\", \"reason\": \"Strong upward movement from open to close with high volume, suggesting positive investor interest in electronics manufacturing\", \"price\": 7454.00},\n    {\"symbol\": \"GRSE\", \"signal\": \"Consider buying on Monday\", \"reason\": \"Closed above open with substantial volume, pointing to strength in defense shipbuilding amid market weakness\", \"price\": 2714.80},\n    {\"symbol\": \"IDEA\", \"signal\": \"Monitor for rebound\", \"reason\": \"Highest volume traded but closed lower; potential for recovery if telecom sector stabilizes\", \"price\": 8.59},\n    {\"symbol\": \"SUZLON\", \"signal\": \"Avoid or sell if held\", \"reason\": \"Closed lower with high volume, reflecting ongoing pressure in wind energy stocks\", \"price\": 57.50}\n  ],\n  \"portfolio\": {\"cash\": 25000.00, \"total_value\": 25000.00, \"holdings_count\": 0, \"holdings\": []},\n  \"screening_notes\": [\n    \"High volume leaders like IDEA, ASHOKLEY, and SUZLON showed price declines, signaling caution in telecom and auto sectors\",\n    \"Watch WAAREEENER and KAYNES for continued uptrends; both midcap and smallcap segments had mixed performances with smallcaps like AMBER also gaining\",\n    \"Defense-related stocks (e.g., GRSE, HAL) displayed resilience; consider sector allocation\",\n    \"Low volume in premium stocks like PAGEIND and ABBOTINDIA suggests limited interest; focus on high-volume movers for liquidity\",\n    \"Overall, defer trades to Monday; prioritize stocks with positive close-open differentials and volumes above 1M for potential entries\"\n  ]\n}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1758718057,
+  "model": "grok-4-0709",
+  "object": "chat.completion",
+  "service_tier": null,
+  "system_fingerprint": "fp_19e21a36c0",
+  "usage": {
+    "completion_tokens": 497,
+    "prompt_tokens": 6381,
+    "total_tokens": 7563,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 685,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 681,
+      "text_tokens": 6381,
+      "image_tokens": 0
+    },
+    "num_sources_used": 0
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "id": "a52d4a78-6070-7404-0c8a-93dff97b0bda_us-east-1",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"daily_summary\": \"Today's market showed mixed performance with midcap stocks like ASHOKLEY and ADANIENT posting gains amid high volume, while SUZLON and some others declined. Smallcaps had strong movers like HINDCOPPER with significant upside and volume. Overall, volatility was evident with no clear sectoral trend, setting up for potential entries on Monday.\",\n  \"top_signals\": [\n    {\"symbol\": \"ASHOKLEY\", \"signal\": \"Buy\", \"reason\": \"Strong bullish close with high volume, breaking above open price significantly\", \"price\": 144.04},\n    {\"symbol\": \"HINDCOPPER\", \"signal\": \"Buy\", \"reason\": \"Notable upward movement from open to close with highest volume in smallcaps, indicating momentum\", \"price\": 307.43},\n    {\"symbol\": \"ADANIENT\", \"signal\": \"Buy\", \"reason\": \"Significant gain and recovery from low, supported by substantial volume\", \"price\": 2676.40},\n    {\"symbol\": \"SUZLON\", \"signal\": \"Sell/Watch\", \"reason\": \"Closed lower than open despite high volume, potential downside continuation\", \"price\": 58.75},\n    {\"symbol\": \"RVNL\", \"signal\": \"Hold/Watch\", \"reason\": \"Moderate decline but high volume suggests interest; monitor for rebound\", \"price\": 357.60}\n  ],\n  \"portfolio\": {\"cash\": 25000, \"total_value\": 25000, \"holdings_count\": 0, \"holdings\": []},\n  \"screening_notes\": [\"High volume in midcaps like IDEA and ASHOKLEY indicate liquidity for potential entries\", \"Watch smallcaps HINDCOPPER and BEL for continued momentum\", \"Decliners like SUZLON and NBCC may offer short opportunities or avoidance\", \"Overall screening list shows midcaps with more upside bias than smallcaps today\"]\n}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1758716907,
+  "model": "grok-4-0709",
+  "object": "chat.completion",
+  "service_tier": null,
+  "system_fingerprint": "fp_19e21a36c0",
+  "usage": {
+    "completion_tokens": 397,
+    "prompt_tokens": 6381,
+    "total_tokens": 7333,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 555,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 680,
+      "text_tokens": 6381,
+      "image_tokens": 0
+    },
+    "num_sources_used": 0
+  }
+}
