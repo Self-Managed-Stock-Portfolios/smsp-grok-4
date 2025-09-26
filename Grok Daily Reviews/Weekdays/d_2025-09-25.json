@@ -1,0 +1,42 @@
+{
+  "id": "8c8a1674-578a-e37d-9734-e780aadf5ada_us-east-1",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"daily_summary\": \"Today's market showed mixed performance with high trading volumes in several midcap and smallcap stocks. Notable gains in smallcaps like HINDCOPPER and BEL amid volatility, while midcaps like TRENT saw declines. Overall, midcaps had moderate activity, and smallcaps exhibited stronger upward momentum in select counters.\",\n  \"top_signals\": [\n    {\"symbol\": \"HINDCOPPER\", \"signal\": \"Strong Buy\", \"reason\": \"Significant price surge from 315.75 to 328.23 with massive volume of 61M shares, indicating strong buying interest.\", \"price\": 328.23},\n    {\"symbol\": \"BEL\", \"signal\": \"Buy\", \"reason\": \"Solid uptrend closing at 403.15 with high volume of 23M, breaking above recent highs.\", \"price\": 403.15},\n    {\"symbol\": \"IDEA\", \"signal\": \"Watch\", \"reason\": \"Extremely high volume of 734M but minimal price change; potential for breakout if momentum builds.\", \"price\": 8.68},\n    {\"symbol\": \"SUZLON\", \"signal\": \"Hold/Sell\", \"reason\": \"Decline in price despite high volume of 38M; monitor for further downside risk.\", \"price\": 56.64},\n    {\"symbol\": \"TRENT\", \"signal\": \"Potential Sell\", \"reason\": \"Sharp drop from 4914.50 to 4742.50 with decent volume, signaling possible correction.\", \"price\": 4742.50}\n  ],\n  \"portfolio\": {\"cash\": 25000, \"total_value\": 25000, \"holdings_count\": 0, \"holdings\": []},\n  \"screening_notes\": [\n    \"High volume leaders: IDEA, SUZLON, HINDCOPPER \u2013 watch for volatility on Monday.\",\n    \"Uptrends in smallcaps like BEL and GRSE suggest sector strength in defense/engineering.\",\n    \"Declines in midcaps such as TRENT and ADANIENT may offer buying opportunities if support holds.\",\n    \"Low volume in premium stocks like PAGEIND and ABBOTINDIA indicates stability but limited action.\",\n    \"Screen for stocks with close > open and high volume for potential entries: e.g., HINDCOPPER, BEL, RBLBANK.\"\n  ]\n}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1758884879,
+  "model": "grok-4-0709",
+  "object": "chat.completion",
+  "service_tier": null,
+  "system_fingerprint": "fp_19e21a36c0",
+  "usage": {
+    "completion_tokens": 483,
+    "prompt_tokens": 6422,
+    "total_tokens": 7444,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 539,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 681,
+      "text_tokens": 6422,
+      "image_tokens": 0
+    },
+    "num_sources_used": 0
+  }
+}

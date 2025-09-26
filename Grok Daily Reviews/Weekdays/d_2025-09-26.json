@@ -1,0 +1,42 @@
+{
+  "id": "6d61a0c1-8a99-9bbd-4068-19c4c15e34f7_us-east-1",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"daily_summary\": \"Today's market showed a generally bearish trend with many midcap and smallcap stocks closing lower than their opening prices, driven by high trading volumes in select names like IDEA and HINDCOPPER. Overall volatility was evident, with some stocks like ASHOKLEY bucking the trend with gains, while others experienced significant drops amid broader market caution.\",\n  \"top_signals\": [\n    {\"symbol\": \"ASHOKLEY\", \"signal\": \"Potential Buy\", \"reason\": \"Closed higher than open with strong volume, indicating bullish momentum in midcap auto sector\", \"price\": 141.93},\n    {\"symbol\": \"HINDCOPPER\", \"signal\": \"Potential Sell/Watch\", \"reason\": \"Significant drop from high to close with very high volume, possible profit-taking or bearish pressure\", \"price\": 311.97},\n    {\"symbol\": \"WAAREEENER\", \"signal\": \"Potential Buy\", \"reason\": \"High volume and close above low despite drop, suggesting support in renewable energy smallcap\", \"price\": 3207.60},\n    {\"symbol\": \"BEL\", \"signal\": \"Potential Sell/Watch\", \"reason\": \"Closed notably lower with high volume, reflecting weakness in defense-related smallcaps\", \"price\": 395.90},\n    {\"symbol\": \"KPIGREEN\", \"signal\": \"Potential Buy\", \"reason\": \"Volume spike and close near low but in growing green energy theme, watch for rebound\", \"price\": 447.40}\n  ],\n  \"portfolio\": {\"cash\": 25000, \"total_value\": 25000, \"holdings_count\": 0, \"holdings\": []},\n  \"screening_notes\": [\n    \"High volume leaders like IDEA and SUZLON show volatility; monitor for breakout on Monday\",\n    \"Midcaps such as ASHOKLEY and NTPCGREEN exhibited relative strength amid downturn\",\n    \"Smallcaps like HINDCOPPER and BEL underperformed with heavy selling; avoid until stabilization\",\n    \"Watch energy and infrastructure themes (e.g., WAAREEENER, RVNL) for potential entry points\",\n    \"Overall screening list indicates bearish bias; prioritize stocks with positive close-open differentials for buys\"\n  ]\n}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1758884976,
+  "model": "grok-4-0709",
+  "object": "chat.completion",
+  "service_tier": null,
+  "system_fingerprint": "fp_19e21a36c0",
+  "usage": {
+    "completion_tokens": 463,
+    "prompt_tokens": 6383,
+    "total_tokens": 7325,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 479,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 681,
+      "text_tokens": 6383,
+      "image_tokens": 0
+    },
+    "num_sources_used": 0
+  }
+}
