@@ -1,0 +1,42 @@
+{
+  "id": "a7143ca0-d353-81e6-0532-3fdb98c9a2a7_us-east-1",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"weekly_summary\": \"The week exhibited high volatility in midcap and smallcap segments, with significant trading volumes in stocks like IDEA, HINDCOPPER, and SUZLON. Bearish trends dominated early in the week, but select sectors such as renewable energy (WAAREEENER, KPIGREEN) and defense (BEL, GRSE) showed resilience and upward momentum. Midcaps like ASHOKLEY and ADANIENT displayed bullish signals amid mixed performances, while smallcaps experienced sharp fluctuations. Overall, the market reflected caution with potential for rebounds in high-volume movers, setting up selective buying opportunities for Monday.\",\n  \"trades\": [\n    {\"action\": \"buy\", \"symbol\": \"ASHOKLEY\", \"shares\": 35, \"amount\": 4967.55, \"reason\": \"Consistent 'Potential Buy' signals across prior days, strong close above open on high volume indicating bullish momentum in auto sector\"},\n    {\"action\": \"buy\", \"symbol\": \"HINDCOPPER\", \"shares\": 15, \"amount\": 4679.55, \"reason\": \"Repeated 'Strong Buy' and high-volume surges, closing higher with momentum in metals/smallcap space\"},\n    {\"action\": \"buy\", \"symbol\": \"WAAREEENER\", \"shares\": 1, \"amount\": 3207.60, \"reason\": \"Frequent 'Potential Buy' mentions, resilience in renewable energy theme despite volatility\"},\n    {\"action\": \"buy\", \"symbol\": \"BEL\", \"shares\": 12, \"amount\": 4750.80, \"reason\": \"Strong uptrend signals in defense sector, high volume and positive close-open differential\"},\n    {\"action\": \"buy\", \"symbol\": \"KPIGREEN\", \"shares\": 10, \"amount\": 4474.00, \"reason\": \"Volume spikes and growth potential in green energy, aligned with weekly themes\"},\n    {\"action\": \"remove\", \"symbol\": \"IDEA\", \"shares\": 0, \"amount\": 0, \"reason\": \"Persistent volatility with minimal net gains despite extreme volumes; no longer suitable for screening due to bearish bias\"}\n  ],\n  \"portfolio\": {\"cash\": 2920.50, \"total_value\": 25000.00, \"holdings_count\": 5, \"holdings\": [\"ASHOKLEY: 35 units\", \"HINDCOPPER: 15 units\", \"WAAREEENER: 1 unit\", \"BEL: 12 units\", \"KPIGREEN: 10 units\"], \"weekly_pnl\": \"+0.00%\"},\n  \"screening_changes\": [\"Remove IDEA: persistent volatility and bearish trends\", \"Remove SUZLON: consistent downside pressure despite volume\", \"Remove NBCC: underperformed with heavy selling in smallcaps\"]\n}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1758969696,
+  "model": "grok-4-0709",
+  "object": "chat.completion",
+  "service_tier": null,
+  "system_fingerprint": "fp_19e21a36c0",
+  "usage": {
+    "completion_tokens": 583,
+    "prompt_tokens": 30019,
+    "total_tokens": 31346,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 744,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 680,
+      "text_tokens": 30019,
+      "image_tokens": 0
+    },
+    "num_sources_used": 0
+  }
+}
