@@ -1,11 +1,12 @@
 import pandas as pd
-import yfinance as yf
 import os
 import json
-from datetime import datetime, timedelta
+from datetime import datetime
+from nsepython import nse_eq
 
 def auto_update_portfolio(json_date: str, csv_date: str) -> None:
     """Updates portfolio CSV for csv_date using Grok JSON response from json_date.
+       Uses NSEPython (not yfinance) to fetch OHLCV data.
     
     Args:
         json_date (str): Date for JSON file in YYYY-MM-DD format (e.g., '2025-09-26').
@@ -22,7 +23,8 @@ def auto_update_portfolio(json_date: str, csv_date: str) -> None:
     except ValueError:
         raise ValueError("Invalid date format. Please use YYYY-MM-DD (e.g., 2025-09-26).")
     
-    sub_dir = "Weekends" if json_target.weekday() < 5 else "Weekends"
+    # Always store JSON under "Weekends" for now (mirrors your structure)
+    sub_dir = "Weekends"
     json_file = os.path.join("Grok Daily Reviews", sub_dir, f"t_{json_target.strftime('%Y-%m-%d')}.json")
     if not os.path.exists(json_file):
         raise FileNotFoundError(f"JSON file not found: {json_file}")
@@ -45,23 +47,34 @@ def auto_update_portfolio(json_date: str, csv_date: str) -> None:
             trade = trades[symbol]
             shares = trade['shares']
             buy_price = round(trade['amount'] / shares, 2) if shares > 0 else 0.0
+            
             try:
-                ticker = yf.Ticker(f"{symbol}.NS")
-                hist = ticker.history(start=json_target, end=json_target + timedelta(days=1))
-                if not hist.empty:
-                    current_price = round(hist['Close'].iloc[0], 2)
+                # Fetch NSE equity data
+                ohlcv = nse_eq(symbol)
+                hist_data = ohlcv.get("data", [])
+                # Find row matching json_date
+                close_price = None
+                for row in hist_data:
+                    if row.get("CH_TIMESTAMP") == json_target.strftime("%d-%b-%Y"):
+                        close_price = float(row.get("CH_CLOSING_PRICE"))
+                        break
+                
+                if close_price:
+                    current_price = round(close_price, 2)
                     total_amount = round(current_price * shares, 2)
                     perct_change = round(((current_price - buy_price) / buy_price) * 100, 2) if buy_price > 0 else 0.0
                 else:
-                    print(f"No data for {symbol} on {json_date}")
+                    print(f"No NSE data for {symbol} on {json_date}")
                     current_price = buy_price
                     total_amount = round(buy_price * shares, 2)
                     perct_change = 0.0
+            
             except Exception as e:
-                print(f"Error fetching data for {symbol}: {e}")
+                print(f"Error fetching NSE data for {symbol}: {e}")
                 current_price = buy_price
                 total_amount = round(buy_price * shares, 2)
                 perct_change = 0.0
+            
             data.append({
                 'Holding Name': symbol,
                 'Buying Price': buy_price,
@@ -71,6 +84,7 @@ def auto_update_portfolio(json_date: str, csv_date: str) -> None:
                 'Perct Change': perct_change
             })
     
+    # Add cash holding
     if portfolio['cash'] > 0:
         data.append({
             'Holding Name': 'Cash',

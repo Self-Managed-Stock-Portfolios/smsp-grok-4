@@ -1,0 +1,42 @@
+{
+  "id": "30133f63-4e7c-b42e-146a-33d83850f491_us-east-1",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"daily_summary\": \"Today's market exhibited mixed trends with high volatility; midcaps like LTF and ABCAPITAL showed strong gains amid robust volumes, while smallcaps such as IDEA and HINDCOPPER displayed upward momentum. Holdings performed positively overall, with energy and metals sectors leading, though caution persists in select areas for potential Monday adjustments.\",\n  \"top_signals\": [\n    {\"symbol\": \"HINDCOPPER\", \"signal\": \"Hold\", \"reason\": \"Strong close near high with high volume, building on prior gains in metals sector\", \"price\": 335.3},\n    {\"symbol\": \"WAAREEENER\", \"signal\": \"Hold/Buy More\", \"reason\": \"Slight gain with volume, maintaining upward trend in renewables\", \"price\": 3332.0},\n    {\"symbol\": \"LTF\", \"signal\": \"Potential Buy\", \"reason\": \"Significant rise from open to close with top volume, indicating strength in financial midcaps\", \"price\": 258.58},\n    {\"symbol\": \"GRSE\", \"signal\": \"Potential Buy\", \"reason\": \"Sharp upward movement and high volume in smallcaps, suggesting momentum in defense and engineering\", \"price\": 2644.2},\n    {\"symbol\": \"KPIGREEN\", \"signal\": \"Watch\", \"reason\": \"Modest recovery but still volatile; monitor for sustained strength in green energy\", \"price\": 445.75}\n  ],\n  \"emergency_trades\": [],\n  \"portfolio\": {\"cash\": 2920.5, \"total_value\": 25560.55, \"holdings_count\": 5, \"holdings\": [\"ASHOKLEY: 35 units\", \"HINDCOPPER: 15 units\", \"WAAREEENER: 1 units\", \"BEL: 12 units\", \"KPIGREEN: 10 units\"]},\n  \"screening_notes\": [\"High volume in smallcaps like IDEA and HINDCOPPER points to liquidity; consider metals for entries\", \"Midcaps such as LTF and NYKAA showed strong gains; financials and consumer sectors resilient\", \"Holdings like BEL and KPIGREEN improved; watch energy trends for support\", \"Infrastructure plays (e.g., RVNL, GRSE) positive; monitor for breakouts\", \"Upside in high-volume movers; prioritize banking and defense for potential additions\"]\n}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1759318139,
+  "model": "grok-4-0709",
+  "object": "chat.completion",
+  "service_tier": null,
+  "system_fingerprint": "fp_19e21a36c0",
+  "usage": {
+    "completion_tokens": 490,
+    "prompt_tokens": 7616,
+    "total_tokens": 9172,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 1066,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 681,
+      "text_tokens": 7616,
+      "image_tokens": 0
+    },
+    "num_sources_used": 0
+  }
+}
