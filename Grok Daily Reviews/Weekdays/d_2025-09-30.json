@@ -1,0 +1,42 @@
+{
+  "id": "54c5a441-2af1-a417-753b-9a2026f78b51_us-east-1",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"daily_summary\": \"Today's market showed mixed performance with notable volatility; midcaps like INDIANB and CHOLAFIN posted strong gains amid high volume, while smallcaps such as HINDCOPPER and BEML exhibited upward momentum. Holdings performed positively overall except KPIGREEN, with energy and banking sectors leading, suggesting selective opportunities for Monday adjustments.\",\n  \"top_signals\": [\n    {\"symbol\": \"HINDCOPPER\", \"signal\": \"Hold\", \"reason\": \"Strong recovery with high volume, closing near high and maintaining positive portfolio momentum in metals\", \"price\": 329.44},\n    {\"symbol\": \"WAAREEENER\", \"signal\": \"Hold/Buy More\", \"reason\": \"Bullish close above open with decent volume, continuing gains in renewable energy sector\", \"price\": 3328.40},\n    {\"symbol\": \"INDIANB\", \"signal\": \"Potential Buy\", \"reason\": \"Significant jump from open to close with high volume, indicating strength in banking midcaps\", \"price\": 750.70},\n    {\"symbol\": \"BEML\", \"signal\": \"Potential Buy\", \"reason\": \"Notable upward movement and volume in smallcaps, suggesting breakout in engineering and defense\", \"price\": 4173.80},\n    {\"symbol\": \"KPIGREEN\", \"signal\": \"Watch/Sell\", \"reason\": \"Closed lower with volume, showing weakness in green energy; monitor for further downside\", \"price\": 438.45}\n  ],\n  \"portfolio\": {\n    \"cash\": 2920.5,\n    \"total_value\": 25415.85,\n    \"holdings_count\": 5,\n    \"holdings\": [\"ASHOKLEY: 35 units\", \"HINDCOPPER: 15 units\", \"WAAREEENER: 1 units\", \"BEL: 12 units\", \"KPIGREEN: 10 units\"]\n  },\n  \"screening_notes\": [\n    \"High volume in smallcaps like IDEA and HINDCOPPER indicates liquidity; consider metals for potential entries\",\n    \"Midcaps such as CHOLAFIN and INDIANB showed resilience with gains; banking sector appears strong\",\n    \"Monitor holdings like KPIGREEN and BEL for support levels amid mixed energy trends\",\n    \"Infrastructure stocks (e.g., RVNL, BEML) displayed positive closes; watch for continuation\",\n    \"Overall, upside bias in high-volume gainers; prioritize sectors like banking and defense for additions\"\n  ]\n}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1759308007,
+  "model": "grok-4-0709",
+  "object": "chat.completion",
+  "service_tier": null,
+  "system_fingerprint": "fp_19e21a36c0",
+  "usage": {
+    "completion_tokens": 518,
+    "prompt_tokens": 7008,
+    "total_tokens": 8574,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 1048,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 681,
+      "text_tokens": 7008,
+      "image_tokens": 0
+    },
+    "num_sources_used": 0
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "id": "a1ff2126-c5b3-b0a6-1f30-7b50f936b283_us-east-1",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"daily_summary\": \"Today's market displayed mixed sentiment with high volatility in both midcap and smallcap segments. High-volume movers like IDEA and BEL showed varied performances, while holdings such as WAAREEENER and HINDCOPPER posted gains. Overall, smallcaps exhibited stronger upward momentum in select stocks amid broader caution, setting up for potential adjustments on Monday.\",\n  \"top_signals\": [\n    {\"symbol\": \"WAAREEENER\", \"signal\": \"Hold/Buy More\", \"reason\": \"Strong bullish close above open with significant volume, continuing upward momentum in renewable energy\", \"price\": 3280.80},\n    {\"symbol\": \"HINDCOPPER\", \"signal\": \"Hold\", \"reason\": \"Notable recovery from low to close with high volume, maintaining positive portfolio performance\", \"price\": 319.46},\n    {\"symbol\": \"FORTIS\", \"signal\": \"Potential Buy\", \"reason\": \"Significant gain from open to close with high volume, indicating strength in healthcare midcaps\", \"price\": 970.75},\n    {\"symbol\": \"WOCKPHARMA\", \"signal\": \"Potential Buy\", \"reason\": \"Sharp upward movement and high volume in smallcaps, suggesting breakout potential in pharma\", \"price\": 1564.40},\n    {\"symbol\": \"KPIGREEN\", \"signal\": \"Watch/Sell\", \"reason\": \"Closed lower than open despite volume, potential weakness in green energy holdings\", \"price\": 441.90}\n  ],\n  \"portfolio\": {\n    \"cash\": 2920.50,\n    \"total_value\": 25196.30,\n    \"holdings_count\": 5,\n    \"holdings\": [\n      \"ASHOKLEY: 35 units\",\n      \"HINDCOPPER: 15 units\",\n      \"WAAREEENER: 1 units\",\n      \"BEL: 12 units\",\n      \"KPIGREEN: 10 units\"\n    ]\n  },\n  \"screening_notes\": [\n    \"High volume in smallcaps like IDEA and HINDCOPPER suggests liquidity for potential entries or exits\",\n    \"Midcaps such as MAXHEALTH and FORTIS showed resilience with gains; consider healthcare sector\",\n    \"Watch declining holdings like BEL and KPIGREEN for support levels on Monday\",\n    \"Energy and infrastructure themes (e.g., NHPC, RVNL) displayed mixed results; monitor for trends\",\n    \"Overall list indicates upside bias in select smallcaps; prioritize high-volume gainers for additions\"\n  ]\n}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1759307826,
+  "model": "grok-4-0709",
+  "object": "chat.completion",
+  "service_tier": null,
+  "system_fingerprint": "fp_19e21a36c0",
+  "usage": {
+    "completion_tokens": 518,
+    "prompt_tokens": 8361,
+    "total_tokens": 9600,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 721,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 681,
+      "text_tokens": 8361,
+      "image_tokens": 0
+    },
+    "num_sources_used": 0
+  }
+}
