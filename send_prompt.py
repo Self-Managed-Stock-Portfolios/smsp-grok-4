@@ -20,10 +20,10 @@ def get_prompt_type() -> str:
         str: Valid prompt type ('f', 'd', or 't').
     """
     while True:
-        user_input = input("Enter prompt type (f for first timer, d for daily, t for weekend training): ").strip().lower()
-        if user_input in ['f', 'd', 't']:
+        user_input = input("Enter prompt type (f for first timer, d for daily, t for weekend training, n for non trading day): ").strip().lower()
+        if user_input in ['f', 'd', 't', 'n']:
             return user_input
-        print("Invalid input. Please enter 'f', 'd', or 't'.")
+        print("Invalid input. Please enter 'f', 'd','n', or 't'.")
 
 def load_prompt(prompt_type: str, date_input: str) -> str:
     """Loads and processes prompt from file, substituting portfolio, stock data, and prior signals.
@@ -42,7 +42,8 @@ def load_prompt(prompt_type: str, date_input: str) -> str:
     prompt_files = {
         'f': 'first_timer_prompt.txt',
         'd': 'daily_prompt.txt',
-        't': 'training_prompt.txt'
+        't': 'training_prompt.txt',
+        'n': 'no_trading_day_prompt.txt'
     }
     file_path = prompt_files.get(prompt_type)
     if not os.path.exists(file_path):
@@ -50,7 +51,7 @@ def load_prompt(prompt_type: str, date_input: str) -> str:
     with open(file_path, 'r', encoding='utf-8') as f:
         prompt = f.read().strip()
     
-    if prompt_type in ['d', 't']:
+    if prompt_type in ['d', 't', 'n']:
         portfolio_str = get_portfolio_string(date_input)
         prompt = prompt.replace("[Portfolio String]", portfolio_str)
     
@@ -63,6 +64,20 @@ def load_prompt(prompt_type: str, date_input: str) -> str:
                 stock_data += get_stock_data_string(past_date) + "\n"
             prompt = prompt.replace("[Stock Data]", stock_data)
             
+            prior_signals = []
+            signals_dir = os.path.join("Grok Daily Reviews", "Weekdays")
+            for i in range(5):
+                past_date = (target_date - timedelta(days=i)).strftime('%Y-%m-%d')
+                signal_file = os.path.join(signals_dir, f"d_{past_date}.json")
+                if os.path.exists(signal_file):
+                    with open(signal_file, 'r', encoding='utf-8') as f:
+                        signal_data = json.load(f)
+                        signal_content = json.loads(signal_data['choices'][0]['message']['content'])
+                        signal_content['date'] = past_date
+                        prior_signals.append(signal_content)
+            prompt = prompt.replace("[Prior Signals JSON]", json.dumps(prior_signals))
+            prompt = prompt.replace("[Date]", date_input)
+        elif(prompt_type == 'n'):
             prior_signals = []
             signals_dir = os.path.join("Grok Daily Reviews", "Weekdays")
             for i in range(5):
