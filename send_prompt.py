@@ -75,6 +75,13 @@ def load_prompt(prompt_type: str, date_input: str) -> str:
                         signal_content = json.loads(signal_data['choices'][0]['message']['content'])
                         signal_content['date'] = past_date
                         prior_signals.append(signal_content)
+                else:
+                    signal_file = os.path.join(signals_dir, f"n_{past_date}.json")
+                    with open(signal_file, 'r', encoding='utf-8') as f:
+                        signal_data = json.load(f)
+                        signal_content = json.loads(signal_data['choices'][0]['message']['content'])
+                        signal_content['date'] = past_date
+                        prior_signals.append(signal_content)
             prompt = prompt.replace("[Prior Signals JSON]", json.dumps(prior_signals))
             prompt = prompt.replace("[Date]", date_input)
         elif(prompt_type == 'n'):
