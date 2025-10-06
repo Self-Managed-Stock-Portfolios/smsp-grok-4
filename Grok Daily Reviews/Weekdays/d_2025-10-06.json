@@ -1,0 +1,42 @@
+{
+  "id": "aaf5c491-f9a9-87c6-3a87-8eba1cf99922_us-east-1",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"daily_summary\": \"Today's market showed mixed performance with high volatility; midcaps like NYKAA and FORTIS posted strong gains amid top volumes, while smallcaps such as IDEA and BEL exhibited varied momentum with massive trading activity. Holdings had uneven results, with gains in WAAREEENER and BEL offset by declines in AEGISLOG and KPIGREEN, suggesting selective adjustments amid strength in healthcare and renewables for Monday.\",\n  \"top_signals\": [\n    {\"symbol\": \"WAAREEENER\", \"signal\": \"Hold/Buy More\", \"reason\": \"Modest gain with close above open and solid volume, sustaining upward trend in renewable energy sector\", \"price\": 3441.5},\n    {\"symbol\": \"HINDCOPPER\", \"signal\": \"Hold\", \"reason\": \"Recovered from day's low with high volume, maintaining positive momentum in metals despite slight dip\", \"price\": 337.95},\n    {\"symbol\": \"FORTIS\", \"signal\": \"Potential Buy\", \"reason\": \"Significant rise from open to close with very high volume, indicating robust strength in midcap healthcare\", \"price\": 1053.9},\n    {\"symbol\": \"EMCURE\", \"signal\": \"Potential Buy\", \"reason\": \"Sharp upward movement and notable volume in smallcaps, suggesting breakout potential in pharmaceuticals\", \"price\": 1435.3},\n    {\"symbol\": \"AEGISLOG\", \"signal\": \"Watch/Sell\", \"reason\": \"Closed much lower than open with volume, showing weakness in logistics; monitor for further downside in holdings\", \"price\": 831.0}\n  ],\n  \"emergency_trades\": [],\n  \"portfolio\": {\"cash\": 5169.7, \"total_value\": 25562.45, \"holdings_count\": 5, \"holdings\": [\"HINDCOPPER: 15 units\", \"WAAREEENER: 1 units\", \"BEL: 12 units\", \"KPIGREEN: 10 units\", \"AEGISLOG: 3 units\"]},\n  \"screening_notes\": [\"High volume in smallcaps like IDEA and HINDCOPPER indicates liquidity; consider metals for potential entries or exits\", \"Midcaps such as NYKAA and FORTIS showed strong gains; healthcare and consumer sectors appear resilient\", \"Monitor declining holdings like AEGISLOG and KPIGREEN for support levels amid mixed energy trends\", \"Defense and infrastructure stocks (e.g., BEL, GRSE) displayed positive closes; watch for continuation\", \"Overall upside bias in high-volume gainers; prioritize sectors like healthcare and pharma for potential additions\"]\n}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1759749168,
+  "model": "grok-4-0709",
+  "object": "chat.completion",
+  "service_tier": null,
+  "system_fingerprint": "fp_19e21a36c0",
+  "usage": {
+    "completion_tokens": 539,
+    "prompt_tokens": 8323,
+    "total_tokens": 10396,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 1534,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 680,
+      "text_tokens": 8323,
+      "image_tokens": 0
+    },
+    "num_sources_used": 0
+  }
+}
