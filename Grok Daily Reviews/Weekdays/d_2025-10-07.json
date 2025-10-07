@@ -1,0 +1,42 @@
+{
+  "id": "63911f57-c143-8f15-4475-76b7ca94fd89_us-east-1",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"daily_summary\": \"Today's market displayed mixed sentiment with high volatility; midcaps like NYKAA and POLICYBZR showed strong gains and top volumes, while smallcaps such as HINDCOPPER and BEL had massive trading activity but closed lower. Holdings experienced modest declines overall, with gains in HINDCOPPER and WAAREEENER from buy prices offset by losses in KPIGREEN and AEGISLOG, indicating potential adjustments in logistics and energy sectors amid strength in consumer and financials for Monday trades.\",\n  \"top_signals\": [\n    {\"symbol\": \"NYKAA\", \"signal\": \"Potential Buy\", \"reason\": \"Strong upward movement from open to close with highest volume, signaling robust momentum in midcap consumer sector\", \"price\": 262.40},\n    {\"symbol\": \"IRCON\", \"signal\": \"Buy\", \"reason\": \"Significant gain from low to close with high volume, indicating breakout in smallcap infrastructure\", \"price\": 182.60},\n    {\"symbol\": \"POLICYBZR\", \"signal\": \"Hold/Buy More\", \"reason\": \"Closed higher with notable volume, sustaining positive trend in midcap financial services\", \"price\": 1765.00},\n    {\"symbol\": \"HINDCOPPER\", \"signal\": \"Hold\", \"reason\": \"High volume recovery from day's low, maintaining overall positive change from buy despite slight dip in metals\", \"price\": 332.65},\n    {\"symbol\": \"AEGISLOG\", \"signal\": \"Watch/Sell\", \"reason\": \"Continued weakness with close below open and volume, suggesting further downside in logistics holdings\", \"price\": 820.35}\n  ],\n  \"emergency_trades\": [],\n  \"portfolio\": {\"cash\": 5169.70, \"total_value\": 25266.90, \"holdings_count\": 5, \"holdings\": [\"HINDCOPPER: 15 units\", \"WAAREEENER: 1 units\", \"BEL: 12 units\", \"KPIGREEN: 10 units\", \"AEGISLOG: 3 units\"]},\n  \"screening_notes\": [\"Exceptional volume in midcaps like NYKAA and GAIL points to consumer and energy resilience; consider entries in gaining sectors\", \"Smallcaps such as IRCON and GRSE showed strong closes; infrastructure and defense may offer momentum plays\", \"Monitor underperforming holdings like KPIGREEN and AEGISLOG for support levels amid mixed renewable and logistics trends\", \"Pharma and healthcare stocks (e.g., FORTIS, EMCURE) exhibited gains; prioritize for potential portfolio additions\", \"Overall market bias towards high-volume gainers; watch for volatility in metals and financials for selective trades\"]\n}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1759837213,
+  "model": "grok-4-0709",
+  "object": "chat.completion",
+  "service_tier": null,
+  "system_fingerprint": "fp_19e21a36c0",
+  "usage": {
+    "completion_tokens": 560,
+    "prompt_tokens": 7092,
+    "total_tokens": 8568,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 916,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 681,
+      "text_tokens": 7092,
+      "image_tokens": 0
+    },
+    "num_sources_used": 0
+  }
+}
