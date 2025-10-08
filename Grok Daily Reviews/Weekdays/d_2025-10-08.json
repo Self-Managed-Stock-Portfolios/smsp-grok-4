@@ -1,0 +1,42 @@
+{
+  "id": "6b46a425-6512-c8c2-37e8-29765a7cb0d1_us-east-1",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"daily_summary\": \"Today's market exhibited high volatility with mixed results; smallcaps like ITI and RBLBANK showed strong gains and massive volumes, while midcaps such as ASHOKLEY and NYKAA had high activity but varied closes. Holdings had uneven performance, with HINDCOPPER posting solid gains offset by declines in WAAREEENER, BEL, KPIGREEN, and AEGISLOG, suggesting potential rebalancing towards resilient sectors like banking and telecom for Monday trades.\",\n  \"top_signals\": [\n    {\"symbol\": \"ITI\", \"signal\": \"Potential Buy\", \"reason\": \"Explosive upward movement from open to close with enormous volume, indicating strong momentum in smallcap telecom sector\", \"price\": 356.65},\n    {\"symbol\": \"HINDCOPPER\", \"signal\": \"Hold/Buy More\", \"reason\": \"Recovered strongly from open with high volume, sustaining positive trend in metals and boosting portfolio performance\", \"price\": 342.20},\n    {\"symbol\": \"RBLBANK\", \"signal\": \"Potential Buy\", \"reason\": \"Significant gain from open to close with very high volume, signaling breakout potential in smallcap banking\", \"price\": 286.45},\n    {\"symbol\": \"ASTERDM\", \"signal\": \"Potential Buy\", \"reason\": \"Sharp rise with notable volume in smallcaps, suggesting strength in healthcare amid overall market volatility\", \"price\": 698.55},\n    {\"symbol\": \"AEGISLOG\", \"signal\": \"Watch/Sell\", \"reason\": \"Continued decline from open to close with volume, showing persistent weakness in logistics holdings; consider exit if downside persists\", \"price\": 807.55}\n  ],\n  \"emergency_trades\": [],\n  \"portfolio\": {\"cash\": 5169.70, \"total_value\": 25143.05, \"holdings_count\": 5, \"holdings\": [\"HINDCOPPER: 15 units\", \"WAAREEENER: 1 units\", \"BEL: 12 units\", \"KPIGREEN: 10 units\", \"AEGISLOG: 3 units\"]},\n  \"screening_notes\": [\"Exceptional volume in smallcaps like ITI and RBLBANK highlights telecom and banking strength; consider entries for momentum plays\", \"Midcaps such as NYKAA and FORTIS showed resilience with gains; consumer and healthcare sectors remain attractive\", \"Monitor declining holdings like AEGISLOG, KPIGREEN, and WAAREEENER for support levels amid mixed energy and logistics trends\", \"Defense stocks like BEL and HAL closed lower but with volume; watch for rebounds in infrastructure-related plays\", \"Overall market bias towards high-volume smallcap gainers; prioritize selective additions in banking and pharma while assessing metals continuity\"]\n}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1759924100,
+  "model": "grok-4-0709",
+  "object": "chat.completion",
+  "service_tier": null,
+  "system_fingerprint": "fp_19e21a36c0",
+  "usage": {
+    "completion_tokens": 570,
+    "prompt_tokens": 7642,
+    "total_tokens": 9263,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 1051,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 7641,
+      "text_tokens": 7642,
+      "image_tokens": 0
+    },
+    "num_sources_used": 0
+  }
+}
