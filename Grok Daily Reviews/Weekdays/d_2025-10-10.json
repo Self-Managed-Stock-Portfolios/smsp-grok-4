@@ -1,0 +1,42 @@
+{
+  "id": "fb3ac82f-f40c-9402-7a91-0cf4cfd0001b_us-east-1",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"daily_summary\": \"Today's market displayed high volatility with mixed results; midcaps like TATACOMM showed explosive gains and top volumes, while smallcaps such as UCOBANK and HINDCOPPER exhibited massive trading activity but varied momentum. Holdings had uneven performance, with gains in BEL and KPIGREEN offset by slight declines in HINDCOPPER and WAAREEENER, and a rebound in AEGISLOG, suggesting selective holds amid strength in banking, telecom, and renewables for potential Monday adjustments.\",\n  \"top_signals\": [\n    {\"symbol\": \"TATACOMM\", \"signal\": \"Potential Buy\", \"reason\": \"Massive upward surge from open to close with highest volume, indicating strong breakout in midcap telecom sector\", \"price\": 1870.20},\n    {\"symbol\": \"UCOBANK\", \"signal\": \"Potential Buy\", \"reason\": \"Solid gain from open to close with enormous volume, signaling momentum in smallcap banking amid high liquidity\", \"price\": 31.80},\n    {\"symbol\": \"HINDCOPPER\", \"signal\": \"Hold\", \"reason\": \"High volume but closed lower than open, maintaining overall positive portfolio change despite metals volatility\", \"price\": 344.55},\n    {\"symbol\": \"BEL\", \"signal\": \"Hold/Buy More\", \"reason\": \"Gained from open with significant volume, sustaining upward trend in smallcap defense sector\", \"price\": 413.50},\n    {\"symbol\": \"AEGISLOG\", \"signal\": \"Watch/Hold\", \"reason\": \"Modest recovery from open with volume, showing potential stabilization in logistics after recent weakness\", \"price\": 812.50}\n  ],\n  \"emergency_trades\": [],\n  \"portfolio\": {\"cash\": 5169.70, \"total_value\": 25496.85, \"holdings_count\": 5, \"holdings\": [\"HINDCOPPER: 15 units\", \"WAAREEENER: 1 units\", \"BEL: 12 units\", \"KPIGREEN: 10 units\", \"AEGISLOG: 3 units\"]},\n  \"screening_notes\": [\"Exceptional volume in midcaps like TATACOMM and GAIL highlights telecom and energy resilience; consider entries in gaining sectors for Monday\", \"Smallcaps such as UCOBANK and ITI showed strong closes with high activity; banking and telecom may offer momentum opportunities\", \"Monitor holdings like HINDCOPPER and AEGISLOG for volatility amid metals and logistics trends, with KPIGREEN showing rebound potential\", \"Healthcare midcaps like FORTIS and smallcaps like ASTERDM exhibited gains; prioritize pharma and health for potential additions\", \"Overall upside in high-volume leaders; watch defense (BEL, HAL) and infrastructure for continuation while assessing renewables\"]\n}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1760161231,
+  "model": "grok-4-0709",
+  "object": "chat.completion",
+  "service_tier": null,
+  "system_fingerprint": "fp_19e21a36c0",
+  "usage": {
+    "completion_tokens": 575,
+    "prompt_tokens": 8201,
+    "total_tokens": 10080,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 1304,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 681,
+      "text_tokens": 8201,
+      "image_tokens": 0
+    },
+    "num_sources_used": 0
+  }
+}

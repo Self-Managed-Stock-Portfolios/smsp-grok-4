@@ -1,0 +1,42 @@
+{
+  "id": "ab68c727-67cc-e014-5e12-76d0a923ff95_us-east-1",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"daily_summary\": \"Today's market displayed mixed volatility with strong performances in smallcaps like HINDCOPPER and SAIL driven by massive volumes, while midcaps such as NYKAA and BSE showed notable gains amid high activity. Holdings had positive momentum overall, with gains in HINDCOPPER, WAAREEENER, and BEL offsetting minor declines in KPIGREEN and AEGISLOG, suggesting potential rebalancing towards metals and infrastructure sectors for Monday trades.\",\n  \"top_signals\": [\n    {\"symbol\": \"HINDCOPPER\", \"signal\": \"Hold/Buy More\", \"reason\": \"Strong recovery from open to high close with enormous volume, sustaining upward trend in metals and boosting portfolio performance\", \"price\": 364.15},\n    {\"symbol\": \"NYKAA\", \"signal\": \"Potential Buy\", \"reason\": \"Significant gain from open to close with very high volume, indicating robust momentum in midcap consumer sector\", \"price\": 264.11},\n    {\"symbol\": \"BSE\", \"signal\": \"Potential Buy\", \"reason\": \"Sharp upward movement with substantial volume in midcaps, signaling strength in financial services amid market volatility\", \"price\": 2330.20},\n    {\"symbol\": \"SAIL\", \"signal\": \"Potential Buy\", \"reason\": \"Notable rise from open to close with massive volume in smallcaps, suggesting breakout potential in metals sector\", \"price\": 136.46},\n    {\"symbol\": \"AEGISLOG\", \"signal\": \"Watch/Sell\", \"reason\": \"Continued decline from open to close with volume, showing persistent weakness in logistics holdings; consider exit if support breaks\", \"price\": 805.90}\n  ],\n  \"emergency_trades\": [],\n  \"portfolio\": {\n    \"cash\": 5169.7,\n    \"total_value\": 25524.55,\n    \"holdings_count\": 5,\n    \"holdings\": [\"HINDCOPPER: 15 units\", \"WAAREEENER: 1 units\", \"BEL: 12 units\", \"KPIGREEN: 10 units\", \"AEGISLOG: 3 units\"]\n  },\n  \"screening_notes\": [\n    \"Exceptional volume in smallcaps like HINDCOPPER and SAIL highlights metals strength; consider entries for momentum in commodities\",\n    \"Midcaps such as NYKAA and BSE exhibited strong closes with high volumes; consumer and financial sectors appear resilient\",\n    \"Monitor underperforming holdings like AEGISLOG and KPIGREEN for key support levels amid mixed logistics and renewable trends\",\n    \"Infrastructure and defense stocks (e.g., BEL, RVNL) showed positive momentum; watch for continuation in high-volume plays\",\n    \"Overall upside bias in high-volume gainers; prioritize selective additions in metals and healthcare while assessing energy sector volatility\"\n  ]\n}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1760160880,
+  "model": "grok-4-0709",
+  "object": "chat.completion",
+  "service_tier": null,
+  "system_fingerprint": "fp_19e21a36c0",
+  "usage": {
+    "completion_tokens": 584,
+    "prompt_tokens": 8211,
+    "total_tokens": 9974,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 1179,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 681,
+      "text_tokens": 8211,
+      "image_tokens": 0
+    },
+    "num_sources_used": 0
+  }
+}
