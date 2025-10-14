@@ -1,0 +1,42 @@
+{
+  "id": "60b24f31-77e5-b844-c761-983252fa8908_us-east-1",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"daily_summary\": \"Today's market displayed mixed performance with high volatility in midcaps and smallcaps; energy and banking sectors showed resilience with strong volumes in stocks like NHPC, GAIL, and RBLBANK, while metals and infrastructure faced downward pressure. Portfolio holdings had varied results, with TATACOMM surging significantly and WAAREEENER holding gains, offsetting declines in BEL, HINDCOPPER, and UCOBANK, maintaining overall positive portfolio change amid opportunities in renewables, telecom, and financials.\",\n  \"top_signals\": [\n    {\"symbol\": \"TATACOMM\", \"signal\": \"Hold/Buy More\", \"reason\": \"Strong upward momentum from open to close with high volume, breaking to new highs in telecom sector and contributing positively to portfolio\", \"price\": 1872.6},\n    {\"symbol\": \"WAAREEENER\", \"signal\": \"Hold\", \"reason\": \"Slight gain with solid volume in renewables, sustaining positive portfolio performance despite market volatility\", \"price\": 3484.5},\n    {\"symbol\": \"MCX\", \"signal\": \"Potential Buy\", \"reason\": \"Significant surge from open to close with very high volume in smallcaps, indicating breakout in commodity trading amid increased activity\", \"price\": 9397.5},\n    {\"symbol\": \"ANANDRATHI\", \"signal\": \"Potential Buy\", \"reason\": \"Sharp rise with massive volume in smallcaps, signaling strength in financial services and potential for momentum plays\", \"price\": 3163.2},\n    {\"symbol\": \"NHPC\", \"signal\": \"Potential Buy\", \"reason\": \"High volume despite slight dip, showing resilience in energy sector with potential for recovery in midcaps\", \"price\": 85.36}\n  ],\n  \"emergency_trades\": [],\n  \"portfolio\": {\n    \"cash\": 2557.0,\n    \"total_value\": 25285.15,\n    \"holdings_count\": 6,\n    \"holdings\": [\"HINDCOPPER: 15 units\", \"WAAREEENER: 1 units\", \"BEL: 12 units\", \"KPIGREEN: 10 units\", \"TATACOMM: 1 units\", \"UCOBANK: 100 units\"]\n  },\n  \"screening_notes\": [\n    \"High volumes in midcaps like TATACOMM and BSE suggest telecom and financial strength; consider for additions to capitalize on upward trends\",\n    \"Smallcaps such as HINDCOPPER and RBLBANK exhibited massive activity but downward closes; monitor metals and banking for support levels\",\n    \"Renewable energy stocks (WAAREEENER, KPIGREEN) show stability; hold current positions while eyeing NHPC for potential entry\",\n    \"Healthcare midcaps like FORTIS and MAXHEALTH closed positively with volume; evaluate for diversification in volatile market\",\n    \"Defense and infrastructure (BEL, RVNL) faced dips; watch for rebounds, while avoiding overexposure to declining metals like SAIL\"\n  ]\n}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1760447815,
+  "model": "grok-4-0709",
+  "object": "chat.completion",
+  "service_tier": null,
+  "system_fingerprint": "fp_19e21a36c0",
+  "usage": {
+    "completion_tokens": 615,
+    "prompt_tokens": 7187,
+    "total_tokens": 8575,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 773,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 681,
+      "text_tokens": 7187,
+      "image_tokens": 0
+    },
+    "num_sources_used": 0
+  }
+}
