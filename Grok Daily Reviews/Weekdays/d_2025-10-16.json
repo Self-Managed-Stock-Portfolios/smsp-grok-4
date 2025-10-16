@@ -1,0 +1,42 @@
+{
+  "id": "cdc07bed-7122-05a7-3abb-597d14b49966_us-east-1",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"daily_summary\": \"Today's market displayed robust activity with high volumes in midcaps like GAIL, LTF, and NHPC, signaling strength in energy and financial sectors, while smallcaps such as IDEA, RBLBANK, and ITI showed massive trading and mixed closes. Portfolio holdings exhibited positive momentum overall, with strong gains in WAAREEENER, TATACOMM, and HINDCOPPER offsetting minor dips in UCOBANK, maintaining an upward total change amid opportunities in renewables, telecom, and banking for potential Monday trades.\",\n  \"top_signals\": [\n    {\"symbol\": \"WAAREEENER\", \"signal\": \"Hold/Buy More\", \"reason\": \"Significant upward surge from open to close with high volume, continuing strong performance in renewable energy and driving portfolio gains\", \"price\": 3627.40},\n    {\"symbol\": \"TATACOMM\", \"signal\": \"Hold\", \"reason\": \"Strong recovery and close above open with substantial volume, sustaining positive momentum in telecom sector amid market resilience\", \"price\": 1971.30},\n    {\"symbol\": \"HINDCOPPER\", \"signal\": \"Hold\", \"reason\": \"Stable close despite minor dip from open, supported by massive volume indicating ongoing interest in metals\", \"price\": 342.20},\n    {\"symbol\": \"LTF\", \"signal\": \"Potential Buy\", \"reason\": \"Notable gain from open to close with very high volume, highlighting breakout potential in midcap financial services\", \"price\": 269.19},\n    {\"symbol\": \"ITI\", \"signal\": \"Potential Buy\", \"reason\": \"Sharp upward movement with explosive volume in smallcaps, suggesting momentum in telecom infrastructure amid high activity\", \"price\": 336.55}\n  ],\n  \"emergency_trades\": [],\n  \"portfolio\": {\"cash\": 2557.0, \"total_value\": 25969.8, \"holdings_count\": 6, \"holdings\": [\"HINDCOPPER: 15 units\", \"WAAREEENER: 1 units\", \"BEL: 12 units\", \"KPIGREEN: 10 units\", \"TATACOMM: 1 units\", \"UCOBANK: 100 units\"]},\n  \"screening_notes\": [\"High volumes in midcaps like LTF, GAIL, and BSE underscore financial and energy sector strength; consider for momentum additions on Monday\", \"Smallcaps such as IDEA, RBLBANK, and ITI exhibited massive activity with positive closes; evaluate banking and telecom for selective opportunities\", \"Renewable energy holdings (WAAREEENER, KPIGREEN) continue to outperform; hold while monitoring NHPC and SJVN for potential entries\", \"Metals stocks like HINDCOPPER and SAIL showed resilience with volume; watch for continuation in infrastructure plays amid volatility\", \"Healthcare midcaps (FORTIS, MAXHEALTH) and smallcaps (ASTERDM, KIMS) closed positively; assess for portfolio diversification in resilient sectors\"]\n}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1760619746,
+  "model": "grok-4-0709",
+  "object": "chat.completion",
+  "service_tier": null,
+  "system_fingerprint": "fp_19e21a36c0",
+  "usage": {
+    "completion_tokens": 613,
+    "prompt_tokens": 8151,
+    "total_tokens": 9868,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 1104,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 681,
+      "text_tokens": 8151,
+      "image_tokens": 0
+    },
+    "num_sources_used": 0
+  }
+}
