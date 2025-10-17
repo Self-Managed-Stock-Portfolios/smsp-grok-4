@@ -1,0 +1,42 @@
+{
+  "id": "070296aa-057e-6232-f397-fe32e45b1466_us-east-1",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"daily_summary\": \"Today's market exhibited mixed volatility with high volumes in midcaps like NHPC, ASHOKLEY, and GAIL, indicating resilience in energy and automotive sectors, while smallcaps such as BEL, INOXWIND, and RBLBANK showed strong activity but varied closes. Portfolio holdings performed positively overall, with gains in WAAREEENER, BEL, and KPIGREEN offsetting declines in UCOBANK and minor dips in TATACOMM, suggesting holds in renewables and defense amid opportunities in banking and infrastructure for potential Monday trades.\",\n  \"top_signals\": [\n    {\"symbol\": \"WAAREEENER\", \"signal\": \"Hold/Buy More\", \"reason\": \"Strong downward open but recovered to positive close with very high volume, sustaining momentum in renewable energy and boosting portfolio performance\", \"price\": 3535.3},\n    {\"symbol\": \"BEL\", \"signal\": \"Hold\", \"reason\": \"Solid gain from open to close with massive volume, maintaining positive change in defense sector despite market fluctuations\", \"price\": 412.8},\n    {\"symbol\": \"HINDCOPPER\", \"signal\": \"Hold\", \"reason\": \"Stable close near high with high volume, indicating ongoing interest in metals and contributing to portfolio stability\", \"price\": 341.95},\n    {\"symbol\": \"LAURUSLABS\", \"signal\": \"Potential Buy\", \"reason\": \"Significant upward surge from open to close with substantial volume in midcaps, signaling strength in pharmaceuticals amid healthcare resilience\", \"price\": 900.05},\n    {\"symbol\": \"MCX\", \"signal\": \"Potential Buy\", \"reason\": \"Slight dip but high volume in smallcaps, suggesting potential rebound in commodity exchange sector with continued interest\", \"price\": 9328.5}\n  ],\n  \"emergency_trades\": [],\n  \"portfolio\": {\"cash\": 2557.0, \"total_value\": 25975.55, \"holdings_count\": 6, \"holdings\": [\"HINDCOPPER: 15 units\", \"WAAREEENER: 1 units\", \"BEL: 12 units\", \"KPIGREEN: 10 units\", \"TATACOMM: 1 units\", \"UCOBANK: 100 units\"]},\n  \"screening_notes\": [\"High volumes in midcaps like NHPC and GAIL highlight energy sector strength; consider entries for momentum in utilities and infrastructure\", \"Smallcaps such as BEL and HINDCOPPER showed resilience with massive activity; defense and metals may offer selective opportunities amid volatility\", \"Monitor holdings like WAAREEENER and KPIGREEN for continued upside in renewables, while assessing UCOBANK for support levels in banking\", \"Healthcare stocks (e.g., MAXHEALTH, LAURUSLABS) displayed positive closes with volume; prioritize for potential portfolio diversification\", \"Overall market bias towards high-volume sectors like financials (UNIONBANK, RBLBANK) and energy; watch telecom (TATACOMM, INDUSTOWER) for trends\"]\n}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1760728929,
+  "model": "grok-4-0709",
+  "object": "chat.completion",
+  "service_tier": null,
+  "system_fingerprint": "fp_19e21a36c0",
+  "usage": {
+    "completion_tokens": 621,
+    "prompt_tokens": 8993,
+    "total_tokens": 10580,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 966,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 680,
+      "text_tokens": 8993,
+      "image_tokens": 0
+    },
+    "num_sources_used": 0
+  }
+}
