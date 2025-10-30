@@ -1,0 +1,42 @@
+{
+  "id": "d0868aab-724c-0cae-7414-97a43401571e_us-east-1",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"daily_summary\": \"Today's market displayed mixed trends with high volatility, driven by massive volumes in infrastructure, banking, and metals sectors. Midcaps like BHEL and ABCAPITAL showed strong gains with record volumes, while smallcaps such as NBCC and HUDCO exhibited upward momentum. Portfolio holdings had varied performance, with gains in KPIGREEN, WAAREEENER, and BEL offsetting minor dips in HINDCOPPER and CREDITACC, resulting in a slight increase in total value amid opportunities in financials, renewables, and cyclicals.\",\n  \"top_signals\": [\n    {\"symbol\": \"BHEL\", \"signal\": \"Potential Buy\", \"reason\": \"Significant surge from open to close with explosive volume, indicating strong bullish momentum in midcap infrastructure for potential diversification\", \"price\": 261.29},\n    {\"symbol\": \"ABCAPITAL\", \"signal\": \"Potential Buy\", \"reason\": \"Sharp upward movement with high volume, reflecting robust interest in midcap financials amid sector recovery\", \"price\": 326.80},\n    {\"symbol\": \"KPIGREEN\", \"signal\": \"Hold\", \"reason\": \"Positive close from open with substantial volume, reinforcing strength in smallcap renewables and contributing to portfolio growth\", \"price\": 534.40},\n    {\"symbol\": \"NBCC\", \"signal\": \"Potential Buy\", \"reason\": \"Modest gain with massive volume in smallcap infrastructure, suggesting potential for growth sector exposure\", \"price\": 118.37},\n    {\"symbol\": \"HINDCOPPER\", \"signal\": \"Hold\", \"reason\": \"High volume despite slight dip from open, maintaining resilience in smallcap metals and supporting portfolio stability\", \"price\": 348.30}\n  ],\n  \"emergency_trades\": [],\n  \"portfolio\": {\"cash\": 1393.30, \"total_value\": 26642.60, \"holdings_count\": 6, \"holdings\": [\"HINDCOPPER: 15 units\", \"WAAREEENER: 1 units\", \"BEL: 12 units\", \"KPIGREEN: 10 units\", \"TATACOMM: 1 units\", \"CREDITACC: 3 units\"]},\n  \"screening_notes\": [\"High volumes in midcap infrastructure like BHEL and GMRAIRPORT with gains; evaluate for buys to diversify alongside current holdings\", \"Smallcap banks such as IDBI and RBLBANK active with mixed results; monitor for potential additions to enhance financial exposure with CREDITACC\", \"Renewables like KPIGREEN and WAAREEENER showed strength; consider INOXWIND for complementary positions\", \"Metals smallcaps HINDCOPPER and SAIL resilient despite volatility; watch for cyclical upside\", \"Midcap financials and telecom like ABCAPITAL and INDUSTOWER gained traction; assess for portfolio balance in fluctuating markets\"]\n}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1761821291,
+  "model": "grok-4-0709",
+  "object": "chat.completion",
+  "service_tier": null,
+  "system_fingerprint": "fp_794271b43e",
+  "usage": {
+    "completion_tokens": 585,
+    "prompt_tokens": 8007,
+    "total_tokens": 10034,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 1442,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 681,
+      "text_tokens": 8007,
+      "image_tokens": 0
+    },
+    "num_sources_used": 0
+  }
+}
