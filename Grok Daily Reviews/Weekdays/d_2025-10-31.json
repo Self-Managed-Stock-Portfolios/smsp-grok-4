@@ -1,0 +1,42 @@
+{
+  "id": "3a7092bd-38c5-4ec2-38f3-721420974bb9_us-east-1",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"daily_summary\": \"Today's market showed mixed performance with high volatility and massive volumes in banking, infrastructure, and metals sectors. Smallcaps like IDBI and BEL exhibited strong upward momentum with record-breaking activity, while midcaps such as UNIONBANK and BHEL surged notably. Portfolio holdings had varied results, with gains in BEL and KPIGREEN offsetting declines in HINDCOPPER, TATACOMM, and CREDITACC, resulting in a stable overall value amid opportunities in financials, renewables, and cyclicals.\",\n  \"top_signals\": [\n    {\"symbol\": \"IDBI\", \"signal\": \"Potential Buy\", \"reason\": \"Explosive surge from open to close with massive volume, indicating strong bullish momentum in smallcap banking for potential diversification alongside CREDITACC\", \"price\": 103.80},\n    {\"symbol\": \"UNIONBANK\", \"signal\": \"Potential Buy\", \"reason\": \"Significant gain from open to high close with record volume, reflecting robust interest in midcap banking amid sector recovery\", \"price\": 148.67},\n    {\"symbol\": \"BEL\", \"signal\": \"Hold\", \"reason\": \"Strong upward movement with enormous volume, reinforcing strength in smallcap defense and boosting portfolio performance\", \"price\": 426.10},\n    {\"symbol\": \"KPIGREEN\", \"signal\": \"Hold\", \"reason\": \"Modest gain with solid volume, maintaining resilience in smallcap renewables and supporting portfolio stability\", \"price\": 535.30},\n    {\"symbol\": \"BHEL\", \"signal\": \"Potential Buy\", \"reason\": \"Positive close from open with high volume, suggesting potential for midcap infrastructure exposure in growth sectors\", \"price\": 265.49}\n  ],\n  \"emergency_trades\": [],\n  \"portfolio\": {\"cash\": 1393.30, \"total_value\": 26536.85, \"holdings_count\": 6, \"holdings\": [\"HINDCOPPER: 15 units\", \"WAAREEENER: 1 units\", \"BEL: 12 units\", \"KPIGREEN: 10 units\", \"TATACOMM: 1 units\", \"CREDITACC: 3 units\"]},\n  \"screening_notes\": [\"High volumes in smallcap banks like IDBI, UCOBANK, and IOB with gains; evaluate for buys to enhance financial exposure with CREDITACC\", \"Infrastructure midcaps such as BHEL and ASHOKLEY showed strength; monitor for additions to diversify growth sectors\", \"Metals smallcaps like HINDCOPPER and SAIL active with mixed results; watch for cyclical upside potential\", \"Renewables including KPIGREEN and WAAREEENER exhibited resilience; consider INOXWIND for complementary positions\", \"Midcap financials and telecom like UNIONBANK and INDUSTOWER gained traction; assess for portfolio balance in volatile conditions\"]\n}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1762123457,
+  "model": "grok-4-0709",
+  "object": "chat.completion",
+  "service_tier": null,
+  "system_fingerprint": "fp_794271b43e",
+  "usage": {
+    "completion_tokens": 583,
+    "prompt_tokens": 8633,
+    "total_tokens": 10287,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 1071,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 681,
+      "text_tokens": 8633,
+      "image_tokens": 0
+    },
+    "num_sources_used": 0
+  }
+}
