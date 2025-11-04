@@ -1,0 +1,42 @@
+{
+  "id": "0e71fd8f-dcb6-b258-6952-0b3722ed1cd9",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"daily_summary\": \"Today's market exhibited mixed performance with high volatility and massive trading volumes in banking, infrastructure, and metals sectors. Smallcaps like BEL, SAIL, and IDBI showed significant activity with varied price movements, while midcaps such as INDUSTOWER and LTF surged notably. Portfolio holdings had mixed results, with gains in WAAREEENER and KPIGREEN offsetting declines in BEL, CREDITACC, and IDBI, resulting in a stable overall value amid opportunities in financials, renewables, and cyclicals.\",\n  \"top_signals\": [\n    {\"symbol\": \"INDUSTOWER\", \"signal\": \"Potential Buy\", \"reason\": \"Sharp surge from open to close with massive volume, indicating strong bullish momentum in midcap telecom infrastructure for potential diversification\", \"price\": 382.75},\n    {\"symbol\": \"WOCKPHARMA\", \"signal\": \"Potential Buy\", \"reason\": \"Explosive upward movement from open to high close with high volume, reflecting robust interest in smallcap pharmaceuticals amid sector recovery\", \"price\": 1413.80},\n    {\"symbol\": \"KPIGREEN\", \"signal\": \"Hold\", \"reason\": \"Positive close with substantial volume, reinforcing strength in smallcap renewables and contributing to portfolio growth\", \"price\": 538.80},\n    {\"symbol\": \"HINDCOPPER\", \"signal\": \"Hold\", \"reason\": \"Slight gain despite volatility with high volume, maintaining resilience in smallcap metals and supporting portfolio stability\", \"price\": 341.75},\n    {\"symbol\": \"IDBI\", \"signal\": \"Hold\", \"reason\": \"Modest decline but enormous volume in smallcap banking, suggesting potential rebound for continued financial exposure\", \"price\": 101.51}\n  ],\n  \"emergency_trades\": [],\n  \"portfolio\": {\"cash\": 2230.70, \"total_value\": 26485.25, \"holdings_count\": 6, \"holdings\": [\"HINDCOPPER: 15 units\", \"WAAREEENER: 1 units\", \"BEL: 12 units\", \"KPIGREEN: 10 units\", \"CREDITACC: 3 units\", \"IDBI: 10 units\"]},\n  \"screening_notes\": [\"High volumes in smallcap banks like IDBI, UCOBANK, and IOB with mixed results; evaluate for potential adjustments to enhance financial exposure alongside CREDITACC and IDBI\", \"Infrastructure stocks such as INDUSTOWER and BHEL showed strong gains; monitor for additions to diversify growth sectors\", \"Metals smallcaps like HINDCOPPER and SAIL resilient with massive activity; watch for further cyclical upside\", \"Renewables including KPIGREEN, WAAREEENER, and INOXWIND exhibited positive momentum; consider complementary positions\", \"Midcap financials and consumer stocks like LTF and GODREJCP gained traction; assess for portfolio balance in volatile markets\"]\n}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1762217992,
+  "model": "grok-4-0709",
+  "object": "chat.completion",
+  "service_tier": null,
+  "system_fingerprint": "fp_794271b43e",
+  "usage": {
+    "completion_tokens": 599,
+    "prompt_tokens": 9162,
+    "total_tokens": 11259,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 1498,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 681,
+      "text_tokens": 9162,
+      "image_tokens": 0
+    },
+    "num_sources_used": 0
+  }
+}
