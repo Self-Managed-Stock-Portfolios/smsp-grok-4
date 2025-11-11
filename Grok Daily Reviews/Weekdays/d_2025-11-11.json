@@ -1,0 +1,42 @@
+{
+  "id": "7d1e0a30-eb5a-8a78-9663-62c54122b1c2",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"daily_summary\": \"Today's market showed continued volatility with strong upward momentum in smallcap metals and defense sectors, driven by high volumes in stocks like HINDCOPPER, BEL, and GRSE. Midcaps exhibited mixed performance, with notable gains in infrastructure (BHEL) and financials (INDUSINDBK), while renewables like WAAREEENER and KPIGREEN held steady. Portfolio value increased slightly due to gains in HINDCOPPER, BEL, and KPIGREEN, offsetting LTF's decline; opportunities persist in metals, defense, and infrastructure for potential diversification.\",\n  \"top_signals\": [\n    {\"symbol\": \"HINDCOPPER\", \"signal\": \"Hold\", \"reason\": \"Substantial gain from open to close with massive volume, reinforcing strong momentum in smallcap metals and supporting portfolio growth\", \"price\": 359.7},\n    {\"symbol\": \"BEL\", \"signal\": \"Hold\", \"reason\": \"Positive close with high volume, maintaining resilience in smallcap defense amid sector tailwinds\", \"price\": 427.3},\n    {\"symbol\": \"GRSE\", \"signal\": \"Potential Buy\", \"reason\": \"Significant surge and high close with robust volume, indicating bullish interest in smallcap defense and shipbuilding for portfolio diversification\", \"price\": 2785.9},\n    {\"symbol\": \"BHEL\", \"signal\": \"Potential Buy\", \"reason\": \"Strong upward movement from open to close with exceptional volume, highlighting opportunities in midcap infrastructure for cyclical exposure\", \"price\": 285.8},\n    {\"symbol\": \"KPIGREEN\", \"signal\": \"Hold\", \"reason\": \"Modest gain with decent volume, sustaining positive performance in smallcap renewables despite intraday volatility\", \"price\": 486.3}\n  ],\n  \"emergency_trades\": [],\n  \"portfolio\": {\"cash\": 1419.6, \"total_value\": 25962.8, \"holdings_count\": 6, \"holdings\": [\"HINDCOPPER: 15 units\", \"WAAREEENER: 1 units\", \"BEL: 12 units\", \"KPIGREEN: 10 units\", \"LTF: 10 units\", \"SAIL: 20 units\"]},\n  \"screening_notes\": [\"Smallcap metals like HINDCOPPER, SAIL, and SHYAMMETL displayed high volumes and gains; consider additions to bolster cyclical holdings\", \"Defense stocks including BEL, GRSE, and HAL showed strong momentum with significant activity; evaluate for new entries to enhance sector exposure\", \"Infrastructure midcaps such as BHEL and RVNL posted notable gains amid high volumes; monitor for potential buys to diversify growth areas\", \"Renewables like WAAREEENER, KPIGREEN, and INOXWIND had mixed but volume-supported moves; watch for complementary positions\", \"Financial midcaps like INDUSINDBK and UNIONBANK gained traction; assess for adjustments to balance portfolio amid volatility\"]\n}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1762868762,
+  "model": "grok-4-0709",
+  "object": "chat.completion",
+  "service_tier": null,
+  "system_fingerprint": "fp_794271b43e",
+  "usage": {
+    "completion_tokens": 609,
+    "prompt_tokens": 6877,
+    "total_tokens": 8093,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 607,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 681,
+      "text_tokens": 6877,
+      "image_tokens": 0
+    },
+    "num_sources_used": 0
+  }
+}
