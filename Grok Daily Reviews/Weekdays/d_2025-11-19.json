@@ -1,0 +1,42 @@
+{
+  "id": "620cafae-fd5d-766c-b5a8-67f480d6da2d",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"daily_summary\": \"Today's market showed mixed performance with high volatility and exceptional volumes in smallcap banking and infrastructure sectors like IDBI and NBCC, while midcaps such as GMRAIRPORT and BHEL experienced significant activity but slight declines. Smallcaps in defense and metals like BEL and HINDCOPPER held steady with strong volumes. Portfolio holdings delivered overall gains, particularly in BEL and KPIGREEN, contributing to a stable value increase; opportunities persist in banking and healthcare for potential diversification.\",\n  \"top_signals\": [\n    {\"symbol\": \"IDBI\", \"signal\": \"Potential Buy\", \"reason\": \"Strong upward movement from open to close with massive volume, signaling bullish momentum in smallcap banking for financial sector exposure\", \"price\": 104.62},\n    {\"symbol\": \"NH\", \"signal\": \"Potential Buy\", \"reason\": \"Significant surge with high volume, indicating robust interest in smallcap healthcare amid sector resilience\", \"price\": 1991.20},\n    {\"symbol\": \"HINDCOPPER\", \"signal\": \"Hold\", \"reason\": \"Modest decline but substantial volume supports ongoing stability in smallcap metals within the portfolio\", \"price\": 327.75},\n    {\"symbol\": \"BEL\", \"signal\": \"Hold\", \"reason\": \"Positive close with high volume, reinforcing strength in smallcap defense for continued growth potential\", \"price\": 423.20},\n    {\"symbol\": \"NBCC\", \"signal\": \"Hold\", \"reason\": \"Slight drop yet exceptional volume sustains upward trend in smallcap infrastructure despite intraday fluctuations\", \"price\": 113.04}\n  ],\n  \"emergency_trades\": [],\n  \"portfolio\": {\"cash\": 2991.42, \"total_value\": 24940.25, \"holdings_count\": 6, \"holdings\": [\"HINDCOPPER: 15 units\", \"WAAREEENER: 1 units\", \"BEL: 12 units\", \"KPIGREEN: 10 units\", \"SAIL: 20 units\", \"NBCC: 12 units\"]},\n  \"screening_notes\": [\"Exceptional volumes in smallcap banking stocks like IDBI, UCOBANK, and IOB with upward trends; consider for adding financial diversification\", \"Infrastructure smallcaps such as NBCC, HUDCO, and IRB displayed mixed results with high activity; evaluate for cyclical sector enhancements\", \"Healthcare smallcaps including NH and ASTERDM showed strong momentum and volumes; monitor for growth-oriented portfolio additions\", \"Midcap infrastructure like GMRAIRPORT and BHEL posted high volumes but slight declines; assess for potential recovery plays\", \"Defense and metals smallcaps like BEL, HAL, and HINDCOPPER maintained resilience with significant interest; watch for further upside in stable sectors\"]\n}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1763579337,
+  "model": "grok-4-0709",
+  "object": "chat.completion",
+  "service_tier": null,
+  "system_fingerprint": "fp_f6a633d178",
+  "usage": {
+    "completion_tokens": 571,
+    "prompt_tokens": 7397,
+    "total_tokens": 9291,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 1323,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 681,
+      "text_tokens": 7397,
+      "image_tokens": 0
+    },
+    "num_sources_used": 0
+  }
+}
