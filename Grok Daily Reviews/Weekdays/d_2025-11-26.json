@@ -1,0 +1,42 @@
+{
+  "id": "01c59fa8-9aad-5637-fa0a-6b6417ae3fb4",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"daily_summary\": \"Today's market displayed positive momentum with high volumes in infrastructure, banking, and defense sectors across midcaps and smallcaps. Stocks like GMRAIRPORT, ASHOKLEY, and UNIONBANK led midcap gains with strong closes, while smallcaps such as SAIL, BEL, and HINDCOPPER showed upward trends amid robust trading. Portfolio holdings all posted gains, contributing to an overall increase in total value; opportunities in high-volume infrastructure, healthcare, and financial sectors for potential portfolio enhancements.\",\n  \"top_signals\": [\n    {\"symbol\": \"MCX\", \"signal\": \"Potential Buy\", \"reason\": \"Significant upward surge from open to close with high volume in smallcap financial services, indicating strong bullish momentum for diversification into high-growth areas\", \"price\": 10283.00},\n    {\"symbol\": \"HUDCO\", \"signal\": \"Potential Buy\", \"reason\": \"Notable gain with substantial volume in smallcap infrastructure, reflecting robust interest amid sector recovery and upward trends\", \"price\": 239.17},\n    {\"symbol\": \"EMCURE\", \"signal\": \"Potential Buy\", \"reason\": \"Strong intraday rise and high close with good volume in smallcap pharma, suggesting continued upward trend for healthcare exposure\", \"price\": 1397.20},\n    {\"symbol\": \"BEL\", \"signal\": \"Hold\", \"reason\": \"Positive close with exceptional volume reinforcing strength in smallcap defense, supporting long-term holding amid sector resilience\", \"price\": 415.30},\n    {\"symbol\": \"HINDCOPPER\", \"signal\": \"Hold\", \"reason\": \"Modest gain backed by high volume in smallcap metals, maintaining portfolio stability and potential for further upside\", \"price\": 329.10},\n    {\"symbol\": \"NH\", \"signal\": \"Hold\", \"reason\": \"Recovery from recent declines with positive close and volume in smallcap healthcare, monitor for sustained momentum before adjustments\", \"price\": 1967.10}\n  ],\n  \"emergency_trades\": [],\n  \"portfolio\": {\"cash\": 1625.02, \"total_value\": 24690.04, \"holdings_count\": 7, \"holdings\": [\"HINDCOPPER: 15 units\", \"WAAREEENER: 1 units\", \"BEL: 12 units\", \"KPIGREEN: 10 units\", \"NBCC: 12 units\", \"NH: 1 units\", \"IDBI: 20 units\"]},\n  \"screening_notes\": [\"Exceptional volumes and gains in smallcap infrastructure like HUDCO, NBCC, and IRCON; consider for cyclical diversification and growth potential\", \"Defense smallcaps such as BEL, HAL, and GRSE maintained strong activity; watch for continued upside in stable sectors\", \"Financial smallcaps including IDBI, IOB, and MCX showed mixed but high-volume results; evaluate for enhancing banking and services exposure\", \"Healthcare stocks like EMCURE, FORTIS, and ASTERDM exhibited momentum with notable volumes; assess for growth-oriented additions\", \"Midcap consumer and infra stocks such as GMRAIRPORT, ASHOKLEY, and VBL posted solid gains; monitor for balancing portfolio with consumer trends\"]\n}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1764167665,
+  "model": "grok-4-0709",
+  "object": "chat.completion",
+  "service_tier": null,
+  "system_fingerprint": "fp_f6a633d178",
+  "usage": {
+    "completion_tokens": 661,
+    "prompt_tokens": 7519,
+    "total_tokens": 9223,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 1043,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 681,
+      "text_tokens": 7519,
+      "image_tokens": 0
+    },
+    "num_sources_used": 0
+  }
+}
