@@ -1,0 +1,42 @@
+{
+  "id": "f55e5f3f-6f14-f29e-a5c6-cdad0ec6004e",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"daily_summary\": \"Today's market showed mixed volatility with exceptional volumes in smallcap infrastructure and defense sectors like NBCC, ITI, and BEL, while midcaps such as FORTIS, PAYTM, and NYKAA exhibited strong activity and modest gains. Smallcaps in banking and metals like IDBI and HINDCOPPER experienced slight declines amid high volumes. Portfolio holdings displayed varied performance with gains in WAAREEENER and NBCC offsetting losses in others, resulting in a stable but slightly reduced total value; opportunities in high-momentum infrastructure, healthcare, and consumer sectors for potential diversification.\",\n  \"top_signals\": [\n    {\"symbol\": \"ITI\", \"signal\": \"Potential Buy\", \"reason\": \"Significant upward surge from open to close with massive volume, indicating strong bullish momentum in smallcap telecom and infrastructure for diversification into high-growth areas\", \"price\": 325.15},\n    {\"symbol\": \"RVNL\", \"signal\": \"Potential Buy\", \"reason\": \"Notable gain with high volume, reflecting robust interest in midcap infrastructure amid sector recovery and upward trends\", \"price\": 324.85},\n    {\"symbol\": \"HINDCOPPER\", \"signal\": \"Hold\", \"reason\": \"Modest decline but substantial volume supports resilience in smallcap metals, maintaining portfolio stability despite intraday fluctuations\", \"price\": 313.30},\n    {\"symbol\": \"BEL\", \"signal\": \"Hold\", \"reason\": \"Slight drop from open yet high volume reinforces strength in smallcap defense for continued holding and potential rebound\", \"price\": 403.80},\n    {\"symbol\": \"NBCC\", \"signal\": \"Hold\", \"reason\": \"Positive close with exceptional volume, sustaining upward trend in smallcap infrastructure despite volatility\", \"price\": 116.47}\n  ],\n  \"emergency_trades\": [],\n  \"portfolio\": {\n    \"cash\": 1625.02,\n    \"total_value\": 24144.56,\n    \"holdings_count\": 7,\n    \"holdings\": [\"HINDCOPPER: 15 units\", \"WAAREEENER: 1 units\", \"BEL: 12 units\", \"KPIGREEN: 10 units\", \"NBCC: 12 units\", \"NH: 1 units\", \"IDBI: 20 units\"]\n  },\n  \"screening_notes\": [\n    \"Exceptional volumes in smallcap infrastructure like NBCC, ITI, and IRCON with upward trends; consider for adding cyclical diversification\",\n    \"Banking smallcaps such as IDBI, UCOBANK, and IOB showed high activity but mixed results; monitor for potential financial sector enhancements\",\n    \"Healthcare midcaps and smallcaps including FORTIS, NH, and ASTERDM displayed strong momentum and volumes; evaluate for growth-oriented entries\",\n    \"Midcap consumer stocks like NYKAA, VBL, and MARICO posted gains with notable volumes; assess for balancing consumer exposure\",\n    \"Defense and metals smallcaps like BEL, HAL, and HINDCOPPER maintained resilience with significant interest; watch for further upside in stable sectors\"\n  ]\n}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1764132006,
+  "model": "grok-4-0709",
+  "object": "chat.completion",
+  "service_tier": null,
+  "system_fingerprint": "fp_f6a633d178",
+  "usage": {
+    "completion_tokens": 637,
+    "prompt_tokens": 9232,
+    "total_tokens": 11154,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 1285,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 681,
+      "text_tokens": 9232,
+      "image_tokens": 0
+    },
+    "num_sources_used": 0
+  }
+}
