@@ -1,0 +1,42 @@
+{
+  "id": "43ce8a2b-7df0-0ca4-75c7-f8091693a465",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"daily_summary\": \"Today's market reflected mixed performance with high volatility in infrastructure, defense, and banking sectors across midcaps and smallcaps. Midcaps like ASHOKLEY and BSE showed strong gains with exceptional volumes, while smallcaps such as INOXWIND and SAIL experienced declines amid robust trading. Portfolio holdings had varied results with gains in HINDCOPPER, BEL, and NBCC partially offset by losses in KPIGREEN, NH, and IDBI, resulting in a stable total value; potential opportunities in high-momentum infrastructure, financials, and healthcare for strategic diversification.\",\n  \"top_signals\": [\n    {\"symbol\": \"ASHOKLEY\", \"signal\": \"Potential Buy\", \"reason\": \"Significant upward surge from open to close with massive volume in midcap auto sector, indicating strong bullish momentum for adding cyclical exposure\", \"price\": 159.75},\n    {\"symbol\": \"GRSE\", \"signal\": \"Potential Buy\", \"reason\": \"Notable intraday gain and high volume in smallcap defense, reflecting continued sector strength and potential for growth diversification\", \"price\": 2785.30},\n    {\"symbol\": \"MCX\", \"signal\": \"Potential Buy\", \"reason\": \"Positive close with substantial volume in smallcap financial services, suggesting upward trend amid high interest for portfolio enhancement\", \"price\": 10424.50},\n    {\"symbol\": \"BEL\", \"signal\": \"Hold\", \"reason\": \"Modest decline from open but exceptional volume supports resilience in smallcap defense, maintaining long-term stability\", \"price\": 413.05},\n    {\"symbol\": \"HINDCOPPER\", \"signal\": \"Hold\", \"reason\": \"Slight drop yet high volume indicates sustained interest in smallcap metals, aligning with portfolio balance\", \"price\": 325.80},\n    {\"symbol\": \"NH\", \"signal\": \"Potential Sell\", \"reason\": \"Continued decline with notable volume in smallcap healthcare, consider trimming to mitigate further losses and reallocate\", \"price\": 1951.20}\n  ],\n  \"emergency_trades\": [],\n  \"portfolio\": {\"cash\": 1625.02, \"total_value\": 24458.26, \"holdings_count\": 7, \"holdings\": [\"HINDCOPPER: 15 units\", \"WAAREEENER: 1 units\", \"BEL: 12 units\", \"KPIGREEN: 10 units\", \"NBCC: 12 units\", \"NH: 1 units\", \"IDBI: 20 units\"]},\n  \"screening_notes\": [\"High volumes and gains in midcap infrastructure like ASHOKLEY, RVNL, and GMRAIRPORT; evaluate for cyclical additions to enhance diversification\", \"Defense smallcaps such as BEL, GRSE, and HAL showed resilience with strong activity; monitor for upside in stable sectors\", \"Financial smallcaps including IDBI, UNIONBANK, and MCX had mixed results but high volumes; assess for banking sector recovery\", \"Healthcare midcaps and smallcaps like FORTIS, NH, and ASTERDM displayed momentum; consider for growth-oriented adjustments\", \"Consumer midcaps such as NYKAA, VBL, and MARICO posted modest activity; watch for balancing with consumer trends amid volatility\"]\n}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1764242540,
+  "model": "grok-4-0709",
+  "object": "chat.completion",
+  "service_tier": null,
+  "system_fingerprint": "fp_f6a633d178",
+  "usage": {
+    "completion_tokens": 671,
+    "prompt_tokens": 8183,
+    "total_tokens": 9885,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 1031,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 681,
+      "text_tokens": 8183,
+      "image_tokens": 0
+    },
+    "num_sources_used": 0
+  }
+}
