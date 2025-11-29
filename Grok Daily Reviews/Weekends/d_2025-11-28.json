@@ -1,0 +1,42 @@
+{
+  "id": "a0cdd556-e3f3-ed02-31fa-a7a0ab001fa7",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"daily_summary\": \"Today's market displayed mixed performance with high volatility and exceptional volumes in midcap infrastructure, consumer, and financial sectors like GAIL, ASHOKLEY, and GMRAIRPORT, while smallcaps in banking, metals, and defense such as BEL, HINDCOPPER, and NBCC showed resilience amid robust trading. Portfolio holdings exhibited varied results with gains in HINDCOPPER, BEL, NBCC, and IDBI offsetting losses in WAAREEENER, KPIGREEN, and NH, resulting in a modest overall increase of 0.65%; opportunities in high-momentum infrastructure, healthcare, and consumer sectors for potential diversification and adjustments.\",\n  \"top_signals\": [\n    {\"symbol\": \"VBL\", \"signal\": \"Potential Buy\", \"reason\": \"Strong upward movement from open to close with high volume in midcap consumer sector, indicating bullish momentum and potential for adding growth-oriented exposure\", \"price\": 481.55},\n    {\"symbol\": \"GAIL\", \"signal\": \"Potential Buy\", \"reason\": \"Notable gain with massive volume in midcap energy infrastructure, reflecting robust sector interest and upward trends suitable for cyclical diversification\", \"price\": 176.09},\n    {\"symbol\": \"POONAWALLA\", \"signal\": \"Potential Buy\", \"reason\": \"Positive close with substantial volume in smallcap financials, suggesting recovery and momentum for enhancing portfolio balance\", \"price\": 480.30},\n    {\"symbol\": \"HINDCOPPER\", \"signal\": \"Hold\", \"reason\": \"Modest gain backed by high volume in smallcap metals, supporting continued holding amid sector resilience and portfolio stability\", \"price\": 327.00},\n    {\"symbol\": \"BEL\", \"signal\": \"Hold\", \"reason\": \"Solid increase with exceptional volume in smallcap defense, reinforcing long-term potential and strength in stable sectors\", \"price\": 411.75},\n    {\"symbol\": \"NH\", \"signal\": \"Potential Sell\", \"reason\": \"Continued decline with notable volume in smallcap healthcare, consider selling to mitigate losses and reallocate to stronger performers\", \"price\": 1945.50}\n  ],\n  \"emergency_trades\": [],\n  \"portfolio\": {\n    \"cash\": 1625.02,\n    \"total_value\": 24310.90,\n    \"holdings_count\": 7,\n    \"holdings\": [\"HINDCOPPER: 15 units\", \"WAAREEENER: 1 units\", \"BEL: 12 units\", \"KPIGREEN: 10 units\", \"NBCC: 12 units\", \"NH: 1 units\", \"IDBI: 20 units\"]\n  },\n  \"screening_notes\": [\n    \"Exceptional volumes and gains in midcap infrastructure like GAIL, GMRAIRPORT, and RVNL; evaluate for cyclical additions to enhance diversification\",\n    \"Smallcap defense and metals such as BEL, HINDCOPPER, and HAL showed strong activity and resilience; monitor for further upside in stable sectors\",\n    \"Banking smallcaps including IDBI, IOB, and UCOBANK had high volumes with mixed results; assess for potential financial sector recovery\",\n    \"Consumer midcaps like VBL, NYKAA, and MARICO posted solid gains with notable volumes; consider for balancing portfolio with consumer trends\",\n    \"Healthcare smallcaps and midcaps such as NH, FORTIS, and ASTERDM displayed momentum amid volatility; watch for growth-oriented adjustments\"\n  ]\n}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1764420235,
+  "model": "grok-4-0709",
+  "object": "chat.completion",
+  "service_tier": null,
+  "system_fingerprint": "fp_f6a633d178",
+  "usage": {
+    "completion_tokens": 718,
+    "prompt_tokens": 8843,
+    "total_tokens": 11120,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 1559,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 681,
+      "text_tokens": 8843,
+      "image_tokens": 0
+    },
+    "num_sources_used": 0
+  }
+}
