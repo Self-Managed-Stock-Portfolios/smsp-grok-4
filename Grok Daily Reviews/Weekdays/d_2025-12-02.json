@@ -1,0 +1,42 @@
+{
+  "id": "df79b82f-acd8-5c44-b1ec-b0e62939e1de",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"daily_summary\": \"Today's market displayed mixed trends with high volatility in infrastructure, banking, and defense sectors. Midcaps like GMRAIRPORT and UNIONBANK saw high volumes but modest declines, while smallcaps such as WOCKPHARMA and BEL showed resilience with significant trading activity. Portfolio holdings experienced varied movements, with gains in HINDCOPPER and BEL balancing losses in WAAREEENER and KPIGREEN, maintaining overall stability amid sector-specific momentum in pharma and defense.\",\n  \"top_signals\": [\n    {\"symbol\": \"WOCKPHARMA\", \"signal\": \"Potential Buy\", \"reason\": \"Slight upward movement with exceptionally high volume in smallcap pharma, indicating strong bullish interest and potential for growth diversification\", \"price\": 1494.80},\n    {\"symbol\": \"FORTIS\", \"signal\": \"Potential Buy\", \"reason\": \"Notable gain from open to close with robust volume in midcap healthcare, suggesting upward momentum for portfolio enhancement in stable sectors\", \"price\": 915.75},\n    {\"symbol\": \"GRSE\", \"signal\": \"Potential Buy\", \"reason\": \"Decline but backed by high volume in smallcap defense, presenting a buying opportunity amid sector strength\", \"price\": 2608.40},\n    {\"symbol\": \"HINDCOPPER\", \"signal\": \"Hold\", \"reason\": \"Stable close with high volume in smallcap metals, supporting continued holding for potential further gains\", \"price\": 338.60},\n    {\"symbol\": \"BEL\", \"signal\": \"Hold\", \"reason\": \"Modest decline from open but high volume reinforces long-term defense sector potential\", \"price\": 413.05},\n    {\"symbol\": \"KPIGREEN\", \"signal\": \"Potential Sell\", \"reason\": \"Slight recovery today but ongoing overall decline in smallcap energy; consider selling to reallocate to higher-momentum stocks\", \"price\": 429.90}\n  ],\n  \"emergency_trades\": [],\n  \"portfolio\": {\"cash\": 199.67, \"total_value\": 24436.49, \"holdings_count\": 7, \"holdings\": [\"HINDCOPPER: 15 units\", \"WAAREEENER: 1 units\", \"BEL: 12 units\", \"KPIGREEN: 10 units\", \"NBCC: 12 units\", \"IDBI: 20 units\", \"VBL: 7 units\"]},\n  \"screening_notes\": [\"High volumes and momentum in smallcap pharma like WOCKPHARMA and EMCURE; monitor for healthcare sector additions\", \"Defense smallcaps including BEL, GRSE, and HAL showed strong activity; evaluate for bolstering portfolio stability\", \"Infrastructure midcaps such as GMRAIRPORT, ASHOKLEY, and RVNL had mixed closes with exceptional volumes; watch for cyclical opportunities\", \"Banking stocks like UNIONBANK, IDBI, and IOB displayed high trading but slight declines; assess for financial recovery potential\", \"Consumer and fintech midcaps like VBL, NYKAA, and PAYTM posted stable performances amid volatility; consider for diversified exposure\"]\n}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1764851517,
+  "model": "grok-4-0709",
+  "object": "chat.completion",
+  "service_tier": null,
+  "system_fingerprint": "fp_f6a633d178",
+  "usage": {
+    "completion_tokens": 644,
+    "prompt_tokens": 6948,
+    "total_tokens": 8800,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 1208,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 681,
+      "text_tokens": 6948,
+      "image_tokens": 0
+    },
+    "num_sources_used": 0
+  }
+}
