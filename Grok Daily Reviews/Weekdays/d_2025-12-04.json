@@ -1,0 +1,42 @@
+{
+  "id": "b62f8e81-09a5-eecf-e748-246356487ef2",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"daily_summary\": \"Today's market displayed mixed trends with high volatility in metals, infrastructure, and defense sectors. Midcaps like GMRAIRPORT and BIOCON saw significant declines amid exceptional volumes, while smallcaps such as HINDCOPPER and BEL exhibited strong upward momentum with robust trading. Portfolio holdings showed varied results, with substantial gains in HINDCOPPER offsetting losses in WAAREEENER, KPIGREEN, NBCC, and IDBI, leading to a modest overall increase in total value; opportunities in high-momentum defense and healthcare for potential adjustments amid sector strength.\",\n  \"top_signals\": [\n    {\"symbol\": \"HINDCOPPER\", \"signal\": \"Hold\", \"reason\": \"Strong upward surge from open to close with exceptional volume in smallcap metals, reinforcing positive momentum and portfolio gains for continued holding\", \"price\": 365.75},\n    {\"symbol\": \"BEL\", \"signal\": \"Hold\", \"reason\": \"Modest gain backed by high volume in smallcap defense, supporting long-term stability amid sector resilience\", \"price\": 407.15},\n    {\"symbol\": \"WOCKPHARMA\", \"signal\": \"Potential Buy\", \"reason\": \"Significant decline but with high volume in smallcap pharma, presenting a potential entry point for diversification into recovering healthcare\", \"price\": 1331.90},\n    {\"symbol\": \"UNIONBANK\", \"signal\": \"Potential Buy\", \"reason\": \"Notable increase with robust volume in midcap banking, indicating sector recovery and opportunities for financial exposure\", \"price\": 152.43},\n    {\"symbol\": \"GRSE\", \"signal\": \"Potential Buy\", \"reason\": \"Slight decline but supported by substantial volume in smallcap defense, suggesting upside potential for enhancing portfolio in stable sectors\", \"price\": 2551.10},\n    {\"symbol\": \"WAAREEENER\", \"signal\": \"Potential Sell\", \"reason\": \"Continued decline with notable volume in midcap energy, consider trimming to lock in positions and reallocate to stronger performers\", \"price\": 2984.30},\n    {\"symbol\": \"KPIGREEN\", \"signal\": \"Potential Sell\", \"reason\": \"Modest drop amid volume in smallcap energy, evaluate selling to mitigate further losses and shift to high-momentum areas\", \"price\": 441.75}\n  ],\n  \"emergency_trades\": [],\n  \"portfolio\": {\"cash\": 199.67, \"total_value\": 24635.86, \"holdings_count\": 7, \"holdings\": [\"HINDCOPPER: 15 units\", \"WAAREEENER: 1 units\", \"BEL: 12 units\", \"KPIGREEN: 10 units\", \"NBCC: 12 units\", \"IDBI: 20 units\", \"VBL: 7 units\"]},\n  \"screening_notes\": [\"Exceptional volumes and gains in smallcap metals like HINDCOPPER; monitor for sustained momentum in commodities\", \"Defense smallcaps including BEL, GRSE, and HAL showed resilience with high activity; evaluate for bolstering stable sector holdings\", \"Infrastructure midcaps such as GMRAIRPORT, ASHOKLEY, and RVNL had mixed closes but robust volumes; assess for cyclical diversification\", \"Banking stocks like UNIONBANK, IDBI, and UCOBANK displayed high trading with varied results; watch for financial sector rebound\", \"Pharma and healthcare in midcaps (BIOCON, FORTIS) and smallcaps (WOCKPHARMA, NH) posted notable movements amid volatility; consider for growth additions\"]\n}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1764873215,
+  "model": "grok-4-0709",
+  "object": "chat.completion",
+  "service_tier": null,
+  "system_fingerprint": "fp_f6a633d178",
+  "usage": {
+    "completion_tokens": 737,
+    "prompt_tokens": 8243,
+    "total_tokens": 10225,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 1245,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 681,
+      "text_tokens": 8243,
+      "image_tokens": 0
+    },
+    "num_sources_used": 0
+  }
+}
