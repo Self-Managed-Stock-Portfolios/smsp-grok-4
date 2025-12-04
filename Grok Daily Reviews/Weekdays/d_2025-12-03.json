@@ -1,0 +1,42 @@
+{
+  "id": "b9b80e13-5c8a-9437-9868-bec97c03d893",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"daily_summary\": \"Today's market exhibited mixed trends with notable volatility in infrastructure, banking, defense, and healthcare sectors. Midcaps like ASHOKLEY and BIOCON showed gains with high volumes, while smallcaps such as KPIGREEN and NH displayed upward momentum amid robust trading. Portfolio holdings had varied performances, with gains in HINDCOPPER and BEL partially offset by declines in WAAREEENER, IDBI, and VBL, resulting in a slight overall decrease but maintained stability; opportunities persist in high-momentum sectors like healthcare and infrastructure for potential portfolio adjustments.\",\n  \"top_signals\": [\n    {\"symbol\": \"BIOCON\", \"signal\": \"Potential Buy\", \"reason\": \"Strong upward movement from open to close with high volume in midcap pharma, indicating bullish momentum for diversification into resilient healthcare\", \"price\": 406.13},\n    {\"symbol\": \"NH\", \"signal\": \"Potential Buy\", \"reason\": \"Significant gain backed by substantial volume in smallcap healthcare, suggesting strong growth potential for enhancing portfolio stability\", \"price\": 1925.55},\n    {\"symbol\": \"ASHOKLEY\", \"signal\": \"Potential Buy\", \"reason\": \"Modest increase with exceptional volume in midcap infrastructure, reflecting sector recovery and opportunities for cyclical additions\", \"price\": 161.17},\n    {\"symbol\": \"HINDCOPPER\", \"signal\": \"Hold\", \"reason\": \"Slight decline today but high volume and overall positive portfolio change support holding for potential metals sector rebound\", \"price\": 340.83},\n    {\"symbol\": \"BEL\", \"signal\": \"Hold\", \"reason\": \"Modest close with high volume reinforcing strength in smallcap defense, maintaining long-term upside amid sector trends\", \"price\": 407.53},\n    {\"symbol\": \"WAAREEENER\", \"signal\": \"Potential Sell\", \"reason\": \"Continued decline with notable volume in midcap energy, consider selling to reduce losses and reallocate to stronger performers\", \"price\": 3131.90}\n  ],\n  \"emergency_trades\": [],\n  \"portfolio\": {\"cash\": 199.67, \"total_value\": 24362.69, \"holdings_count\": 7, \"holdings\": [\"HINDCOPPER: 15 units\", \"WAAREEENER: 1 units\", \"BEL: 12 units\", \"KPIGREEN: 10 units\", \"NBCC: 12 units\", \"IDBI: 20 units\", \"VBL: 7 units\"]},\n  \"screening_notes\": [\"Strong volumes and gains in midcap pharma like BIOCON and LUPIN; evaluate for healthcare diversification amid sector momentum\", \"Defense smallcaps such as BEL, GRSE, and HAL showed resilience with high activity; monitor for bolstering stable sector exposure\", \"Infrastructure stocks including ASHOKLEY, RVNL, and GMRAIRPORT had mixed results but exceptional volumes; assess for cyclical opportunities\", \"Banking smallcaps like IDBI, UCOBANK, and IOB displayed high trading with slight declines; watch for potential financial recovery\", \"Healthcare smallcaps such as NH, WOCKPHARMA, and KIMS posted notable movements amid volatility; consider for growth-oriented additions\"]\n}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1764872581,
+  "model": "grok-4-0709",
+  "object": "chat.completion",
+  "service_tier": null,
+  "system_fingerprint": "fp_f6a633d178",
+  "usage": {
+    "completion_tokens": 667,
+    "prompt_tokens": 7591,
+    "total_tokens": 9752,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 1494,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 682,
+      "text_tokens": 7591,
+      "image_tokens": 0
+    },
+    "num_sources_used": 0
+  }
+}
